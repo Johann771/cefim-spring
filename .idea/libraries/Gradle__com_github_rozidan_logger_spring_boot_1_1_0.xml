@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.rozidan:logger-spring-boot:1.1.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.rozidan/logger-spring-boot/1.1.0/f6e5a2e54cf264c735336963b395f624e0acdd26/logger-spring-boot-1.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.rozidan/logger-spring-boot/1.1.0/10c2f7d01818404b7e840116167654da3c229141/logger-spring-boot-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

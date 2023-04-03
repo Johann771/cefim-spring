@@ -1,0 +1,22 @@
+03-04-2023 11:32:43.699 [main] INFO  f.w.s.SpringCefimApplication.logStarting - Starting SpringCefimApplication using Java 19.0.2 with PID 10056 (C:\Users\weyte\Downloads\springcefim\springcefim\out\production\classes started by weyte in C:\Users\weyte\Downloads\springcefim)
+03-04-2023 11:32:43.701 [main] INFO  f.w.s.SpringCefimApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+03-04-2023 11:32:44.217 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+03-04-2023 11:32:44.224 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+03-04-2023 11:32:44.225 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+03-04-2023 11:32:44.226 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.7]
+03-04-2023 11:32:44.283 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+03-04-2023 11:32:44.283 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 555 ms
+03-04-2023 11:32:44.474 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+03-04-2023 11:32:44.488 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+03-04-2023 11:32:44.493 [main] INFO  f.w.s.SpringCefimApplication.logStarted - Started SpringCefimApplication in 1.021 seconds (process running for 1.573)
+03-04-2023 11:35:51.082 [main] INFO  f.w.s.SpringCefimApplication.logStarting - Starting SpringCefimApplication using Java 19.0.2 with PID 1708 (C:\Users\weyte\Downloads\springcefim\springcefim\out\production\classes started by weyte in C:\Users\weyte\Downloads\springcefim)
+03-04-2023 11:35:51.084 [main] INFO  f.w.s.SpringCefimApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+03-04-2023 11:35:51.565 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+03-04-2023 11:35:51.571 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+03-04-2023 11:35:51.572 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+03-04-2023 11:35:51.572 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.7]
+03-04-2023 11:35:51.625 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+03-04-2023 11:35:51.625 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 513 ms
+03-04-2023 11:35:51.810 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+03-04-2023 11:35:51.822 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+03-04-2023 11:35:51.828 [main] INFO  f.w.s.SpringCefimApplication.logStarted - Started SpringCefimApplication in 0.955 seconds (process running for 1.463)
