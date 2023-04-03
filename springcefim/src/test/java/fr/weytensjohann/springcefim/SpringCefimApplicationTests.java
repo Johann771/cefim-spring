@@ -1,5 +1,6 @@
 package fr.weytensjohann.springcefim;
 
+import fr.weytensjohann.springcefim.feature.database.DatabaseService;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.Query;
 import org.junit.jupiter.api.Test;
@@ -42,10 +43,18 @@ class SpringCefimApplicationTests {
 	}
 	@Test
 	void testDatabase(){
-		 Query query = entityManager.createNativeQuery("show tables;");
+		Query query = entityManager.createNativeQuery("show tables;");
 		List<String> results = ((List<String>) query.getResultList());
 		String resultList = String.join(" - ", results);
 		logger.info("Connexion à la BDD :: SUCCESS");
 		logger.info("Table list of databases = [{}]", resultList);
+	}
+	@Test
+	void TestgetProductNameList (){
+		DatabaseService databaseService = new DatabaseService();
+		List<String> results = databaseService.getProductNameList();
+		String resultList = String.join(" - ", results);
+
+		logger.info("result : "+ resultList);
 	}
 }
