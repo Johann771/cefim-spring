@@ -4,8 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/springcefim.iml" filepath="$PROJECT_DIR$/.idea/springcefim.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/springcefim.springcefim.iml" filepath="$PROJECT_DIR$/.idea/modules/springcefim.springcefim.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springcefim.springcefim.main.iml" filepath="$PROJECT_DIR$/.idea/modules/springcefim.springcefim.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springcefim.springcefim.test.iml" filepath="$PROJECT_DIR$/.idea/modules/springcefim.springcefim.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springcefim.springcefim.main~1.iml" filepath="$PROJECT_DIR$/.idea/modules/springcefim.springcefim.main~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springcefim.springcefim.test~1.iml" filepath="$PROJECT_DIR$/.idea/modules/springcefim.springcefim.test~1.iml" />
     </modules>
   </component>
 </project>
