@@ -2,6 +2,9 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="fr.weytensjohann.springcefim" target="17" />
+      <module name="fr.weytensjohann.springcefim.main" target="17" />
+      <module name="fr.weytensjohann.springcefim.test" target="17" />
       <module name="springcefim.springcefim" target="17" />
       <module name="springcefim.springcefim.main" target="17" />
       <module name="springcefim.springcefim.main~1" target="17" />

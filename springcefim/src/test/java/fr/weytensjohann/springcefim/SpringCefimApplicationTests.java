@@ -1,6 +1,7 @@
 package fr.weytensjohann.springcefim;
 
 import fr.weytensjohann.springcefim.feature.database.DatabaseService;
+import fr.weytensjohann.springcefim.feature.database.ProduitDto;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.Query;
 import org.junit.jupiter.api.Test;
@@ -15,6 +16,7 @@ import org.springframework.test.web.servlet.RequestBuilder;
 import org.springframework.test.web.servlet.ResultMatcher;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
+import java.util.Arrays;
 import java.util.List;
 
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
@@ -28,6 +30,8 @@ class SpringCefimApplicationTests {
 	private EntityManager entityManager;
 	@Autowired
 	private MockMvc mvc;
+	@Autowired
+	private DatabaseService databaseService;
 
 	@Test
 	void contextLoads() {
@@ -50,11 +54,20 @@ class SpringCefimApplicationTests {
 		logger.info("Table list of databases = [{}]", resultList);
 	}
 	@Test
+	void testProductList(){
+		ProduitDto p1 = new ProduitDto(2, "Smartphone Samsung", "Smartphone Samsung Galaxy S21 5G - 128 Go - Phantom Gray");
+		ProduitDto p2 = new ProduitDto(3, "Ordinateur portable", "Ordinateur portable HP Spectre x360 14-ea0132nf");
+
+		List<ProduitDto> listProduits = databaseService.getListProduct();
+
+		assert listProduits.containsAll(Arrays.asList(p1, p2));
+	}
+	@Test
 	void TestgetProductNameList (){
-		DatabaseService databaseService = new DatabaseService();
-		List<String> results = databaseService.getProductNameList();
+		List<String> results = this.databaseService.getProductNameList();
 		String resultList = String.join(" - ", results);
 
 		logger.info("result : "+ resultList);
 	}
+
 }

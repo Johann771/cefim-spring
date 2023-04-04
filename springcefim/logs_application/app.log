@@ -87,3 +87,518 @@
 03-04-2023 17:09:56.858 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
 03-04-2023 17:09:56.859 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
 03-04-2023 17:09:56.866 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+04-04-2023 10:04:32.584 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarting - Starting SpringCefimApplicationTests using Java 19.0.2 with PID 13340 (started by weyte in C:\spring\cefim-spring\springcefim)
+04-04-2023 10:04:32.585 [main] INFO  f.w.s.SpringCefimApplicationTests.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+04-04-2023 10:04:32.991 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+04-04-2023 10:04:33.007 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+04-04-2023 10:04:33.327 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+04-04-2023 10:04:33.366 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.7.Final
+04-04-2023 10:04:33.602 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+04-04-2023 10:04:33.605 [main] WARN  c.z.hikari.util.DriverDataSource.<init> - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+04-04-2023 10:04:33.726 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@74c121d4
+04-04-2023 10:04:33.728 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+04-04-2023 10:04:33.771 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+04-04-2023 10:04:33.994 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+04-04-2023 10:04:34.002 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 10:04:34.136 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-04-2023 10:04:34.398 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+04-04-2023 10:04:34.398 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+04-04-2023 10:04:34.399 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 1 ms
+04-04-2023 10:04:34.429 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarted - Started SpringCefimApplicationTests in 2.003 seconds (process running for 3.083)
+04-04-2023 10:04:34.797 [main] INFO  f.w.s.SpringCefimApplicationTests.testDatabase - Connexion à la BDD :: SUCCESS
+04-04-2023 10:04:34.797 [main] INFO  f.w.s.SpringCefimApplicationTests.testDatabase - Table list of databases = [avis - clients - produits]
+04-04-2023 10:04:34.809 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 10:04:34.811 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+04-04-2023 10:04:34.817 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+04-04-2023 10:04:46.903 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarting - Starting SpringCefimApplicationTests using Java 19.0.2 with PID 22024 (started by weyte in C:\spring\cefim-spring\springcefim)
+04-04-2023 10:04:46.904 [main] INFO  f.w.s.SpringCefimApplicationTests.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+04-04-2023 10:04:47.313 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+04-04-2023 10:04:47.333 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+04-04-2023 10:04:47.692 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+04-04-2023 10:04:47.731 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.7.Final
+04-04-2023 10:04:47.969 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+04-04-2023 10:04:47.972 [main] WARN  c.z.hikari.util.DriverDataSource.<init> - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+04-04-2023 10:04:48.099 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7bf018dd
+04-04-2023 10:04:48.101 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+04-04-2023 10:04:48.144 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+04-04-2023 10:04:48.381 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+04-04-2023 10:04:48.390 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 10:04:48.516 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-04-2023 10:04:48.793 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+04-04-2023 10:04:48.794 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+04-04-2023 10:04:48.795 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 1 ms
+04-04-2023 10:04:48.815 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarted - Started SpringCefimApplicationTests in 2.088 seconds (process running for 2.985)
+04-04-2023 10:04:49.032 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 10:04:49.033 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+04-04-2023 10:04:49.039 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+04-04-2023 10:09:52.712 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarting - Starting SpringCefimApplicationTests using Java 19.0.2 with PID 20464 (started by weyte in C:\spring\cefim-spring\springcefim)
+04-04-2023 10:09:52.714 [main] INFO  f.w.s.SpringCefimApplicationTests.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+04-04-2023 10:09:53.166 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+04-04-2023 10:09:53.181 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+04-04-2023 10:09:53.505 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+04-04-2023 10:09:53.543 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.7.Final
+04-04-2023 10:09:53.792 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+04-04-2023 10:09:53.797 [main] WARN  c.z.hikari.util.DriverDataSource.<init> - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+04-04-2023 10:09:53.960 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ab63838
+04-04-2023 10:09:53.962 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+04-04-2023 10:09:54.009 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+04-04-2023 10:09:54.254 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+04-04-2023 10:09:54.263 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 10:09:54.395 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-04-2023 10:09:54.675 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+04-04-2023 10:09:54.675 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+04-04-2023 10:09:54.676 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 1 ms
+04-04-2023 10:09:54.695 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarted - Started SpringCefimApplicationTests in 2.147 seconds (process running for 3.13)
+04-04-2023 10:09:54.938 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 10:09:54.939 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+04-04-2023 10:09:54.944 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+04-04-2023 10:10:24.578 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarting - Starting SpringCefimApplicationTests using Java 19.0.2 with PID 7632 (started by weyte in C:\spring\cefim-spring\springcefim)
+04-04-2023 10:10:24.580 [main] INFO  f.w.s.SpringCefimApplicationTests.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+04-04-2023 10:10:25.009 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+04-04-2023 10:10:25.024 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+04-04-2023 10:10:25.343 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+04-04-2023 10:10:25.377 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.7.Final
+04-04-2023 10:10:25.613 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+04-04-2023 10:10:25.616 [main] WARN  c.z.hikari.util.DriverDataSource.<init> - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+04-04-2023 10:10:25.742 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2a04ab05
+04-04-2023 10:10:25.744 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+04-04-2023 10:10:25.786 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+04-04-2023 10:10:26.044 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+04-04-2023 10:10:26.051 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 10:10:26.181 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-04-2023 10:10:26.479 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+04-04-2023 10:10:26.479 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+04-04-2023 10:10:26.480 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 1 ms
+04-04-2023 10:10:26.497 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarted - Started SpringCefimApplicationTests in 2.092 seconds (process running for 2.949)
+04-04-2023 10:10:26.743 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 10:10:26.745 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+04-04-2023 10:10:26.750 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+04-04-2023 10:18:04.592 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarting - Starting SpringCefimApplicationTests using Java 19.0.2 with PID 11060 (started by weyte in C:\spring\cefim-spring\springcefim)
+04-04-2023 10:18:04.594 [main] INFO  f.w.s.SpringCefimApplicationTests.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+04-04-2023 10:18:05.009 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+04-04-2023 10:18:05.025 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+04-04-2023 10:18:05.350 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+04-04-2023 10:18:05.388 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.7.Final
+04-04-2023 10:18:05.631 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+04-04-2023 10:18:05.634 [main] WARN  c.z.hikari.util.DriverDataSource.<init> - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+04-04-2023 10:18:05.755 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@74c121d4
+04-04-2023 10:18:05.756 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+04-04-2023 10:18:05.798 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+04-04-2023 10:18:06.027 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+04-04-2023 10:18:06.035 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 10:18:06.174 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-04-2023 10:18:06.437 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+04-04-2023 10:18:06.438 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+04-04-2023 10:18:06.439 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 0 ms
+04-04-2023 10:18:06.464 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarted - Started SpringCefimApplicationTests in 2.04 seconds (process running for 2.899)
+04-04-2023 10:18:06.713 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 10:18:06.715 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+04-04-2023 10:18:06.722 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+04-04-2023 10:18:20.839 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarting - Starting SpringCefimApplicationTests using Java 19.0.2 with PID 21756 (started by weyte in C:\spring\cefim-spring\springcefim)
+04-04-2023 10:18:20.840 [main] INFO  f.w.s.SpringCefimApplicationTests.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+04-04-2023 10:18:21.277 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+04-04-2023 10:18:21.292 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+04-04-2023 10:18:21.592 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+04-04-2023 10:18:21.630 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.7.Final
+04-04-2023 10:18:21.889 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+04-04-2023 10:18:21.894 [main] WARN  c.z.hikari.util.DriverDataSource.<init> - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+04-04-2023 10:18:22.049 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4bce62b
+04-04-2023 10:18:22.051 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+04-04-2023 10:18:22.096 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+04-04-2023 10:18:22.317 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+04-04-2023 10:18:22.326 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 10:18:22.475 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-04-2023 10:18:22.733 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+04-04-2023 10:18:22.733 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+04-04-2023 10:18:22.734 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 1 ms
+04-04-2023 10:18:22.753 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarted - Started SpringCefimApplicationTests in 2.082 seconds (process running for 3.014)
+04-04-2023 10:18:23.085 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 10:18:23.086 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+04-04-2023 10:18:23.091 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+04-04-2023 10:19:52.930 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarting - Starting SpringCefimApplicationTests using Java 19.0.2 with PID 21028 (started by weyte in C:\spring\cefim-spring\springcefim)
+04-04-2023 10:19:52.931 [main] INFO  f.w.s.SpringCefimApplicationTests.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+04-04-2023 10:19:53.421 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+04-04-2023 10:19:53.437 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+04-04-2023 10:19:53.770 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+04-04-2023 10:19:53.808 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.7.Final
+04-04-2023 10:19:54.046 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+04-04-2023 10:19:54.049 [main] WARN  c.z.hikari.util.DriverDataSource.<init> - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+04-04-2023 10:19:54.175 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ab63838
+04-04-2023 10:19:54.178 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+04-04-2023 10:19:54.216 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+04-04-2023 10:19:54.454 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+04-04-2023 10:19:54.463 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 10:19:54.594 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-04-2023 10:19:54.883 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+04-04-2023 10:19:54.883 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+04-04-2023 10:19:54.884 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 1 ms
+04-04-2023 10:19:54.912 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarted - Started SpringCefimApplicationTests in 2.147 seconds (process running for 3.183)
+04-04-2023 10:19:55.281 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 10:19:55.284 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+04-04-2023 10:19:55.291 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+04-04-2023 10:20:48.604 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarting - Starting SpringCefimApplicationTests using Java 19.0.2 with PID 12968 (started by weyte in C:\spring\cefim-spring\springcefim)
+04-04-2023 10:20:48.605 [main] INFO  f.w.s.SpringCefimApplicationTests.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+04-04-2023 10:20:49.074 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+04-04-2023 10:20:49.090 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+04-04-2023 10:20:49.443 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+04-04-2023 10:20:49.486 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.7.Final
+04-04-2023 10:20:49.729 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+04-04-2023 10:20:49.731 [main] WARN  c.z.hikari.util.DriverDataSource.<init> - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+04-04-2023 10:20:49.866 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4bce62b
+04-04-2023 10:20:49.868 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+04-04-2023 10:20:49.911 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+04-04-2023 10:20:50.165 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+04-04-2023 10:20:50.175 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 10:20:50.323 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-04-2023 10:20:50.634 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+04-04-2023 10:20:50.634 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+04-04-2023 10:20:50.635 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 1 ms
+04-04-2023 10:20:50.656 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarted - Started SpringCefimApplicationTests in 2.223 seconds (process running for 3.133)
+04-04-2023 10:20:51.018 [main] INFO  f.w.s.SpringCefimApplicationTests.TestgetProductNameList - result : [org.hibernate.jpa.spi.NativeQueryTupleTransformer$NativeTupleImpl@6c737fdb, org.hibernate.jpa.spi.NativeQueryTupleTransformer$NativeTupleImpl@66a93b25, org.hibernate.jpa.spi.NativeQueryTupleTransformer$NativeTupleImpl@3f3f554f]
+04-04-2023 10:20:51.032 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 10:20:51.033 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+04-04-2023 10:20:51.038 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+04-04-2023 10:24:26.089 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarting - Starting SpringCefimApplicationTests using Java 19.0.2 with PID 5248 (started by weyte in C:\spring\cefim-spring\springcefim)
+04-04-2023 10:24:26.090 [main] INFO  f.w.s.SpringCefimApplicationTests.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+04-04-2023 10:24:26.500 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+04-04-2023 10:24:26.516 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+04-04-2023 10:24:26.823 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+04-04-2023 10:24:26.861 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.7.Final
+04-04-2023 10:24:27.112 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+04-04-2023 10:24:27.115 [main] WARN  c.z.hikari.util.DriverDataSource.<init> - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+04-04-2023 10:24:27.253 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4bce62b
+04-04-2023 10:24:27.254 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+04-04-2023 10:24:27.301 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+04-04-2023 10:24:27.530 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+04-04-2023 10:24:27.539 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 10:24:27.663 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-04-2023 10:24:27.904 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+04-04-2023 10:24:27.905 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+04-04-2023 10:24:27.905 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 0 ms
+04-04-2023 10:24:27.923 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarted - Started SpringCefimApplicationTests in 2.0 seconds (process running for 2.863)
+04-04-2023 10:24:28.288 [main] INFO  f.w.s.SpringCefimApplicationTests.TestgetProductNameList - result : [org.hibernate.jpa.spi.NativeQueryTupleTransformer$NativeTupleImpl@6c737fdb, org.hibernate.jpa.spi.NativeQueryTupleTransformer$NativeTupleImpl@66a93b25, org.hibernate.jpa.spi.NativeQueryTupleTransformer$NativeTupleImpl@3f3f554f]
+04-04-2023 10:24:28.302 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 10:24:28.304 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+04-04-2023 10:24:28.310 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+04-04-2023 10:29:08.116 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarting - Starting SpringCefimApplicationTests using Java 19.0.2 with PID 21288 (started by weyte in C:\spring\cefim-spring\springcefim)
+04-04-2023 10:29:08.117 [main] INFO  f.w.s.SpringCefimApplicationTests.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+04-04-2023 10:29:08.533 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+04-04-2023 10:29:08.547 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+04-04-2023 10:29:08.834 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+04-04-2023 10:29:08.871 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.7.Final
+04-04-2023 10:29:09.112 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+04-04-2023 10:29:09.114 [main] WARN  c.z.hikari.util.DriverDataSource.<init> - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+04-04-2023 10:29:09.244 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ab63838
+04-04-2023 10:29:09.245 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+04-04-2023 10:29:09.291 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+04-04-2023 10:29:09.507 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+04-04-2023 10:29:09.517 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 10:29:09.645 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-04-2023 10:29:09.891 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+04-04-2023 10:29:09.891 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+04-04-2023 10:29:09.892 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 1 ms
+04-04-2023 10:29:09.911 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarted - Started SpringCefimApplicationTests in 1.956 seconds (process running for 2.817)
+04-04-2023 10:29:10.227 [main] INFO  f.w.s.SpringCefimApplicationTests.TestgetProductNameList - result : [org.hibernate.jpa.spi.NativeQueryTupleTransformer$NativeTupleImpl@23d12a3a, org.hibernate.jpa.spi.NativeQueryTupleTransformer$NativeTupleImpl@70df41f9, org.hibernate.jpa.spi.NativeQueryTupleTransformer$NativeTupleImpl@64a7ad02, org.hibernate.jpa.spi.NativeQueryTupleTransformer$NativeTupleImpl@46590dd0, org.hibernate.jpa.spi.NativeQueryTupleTransformer$NativeTupleImpl@6c737fdb, org.hibernate.jpa.spi.NativeQueryTupleTransformer$NativeTupleImpl@66a93b25, org.hibernate.jpa.spi.NativeQueryTupleTransformer$NativeTupleImpl@3f3f554f, org.hibernate.jpa.spi.NativeQueryTupleTransformer$NativeTupleImpl@3186f8f5, org.hibernate.jpa.spi.NativeQueryTupleTransformer$NativeTupleImpl@467cd4b9, org.hibernate.jpa.spi.NativeQueryTupleTransformer$NativeTupleImpl@69a3bf40, org.hibernate.jpa.spi.NativeQueryTupleTransformer$NativeTupleImpl@2c731a16, org.hibernate.jpa.spi.NativeQueryTupleTransformer$NativeTupleImpl@2a341e3d]
+04-04-2023 10:29:10.239 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 10:29:10.240 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+04-04-2023 10:29:10.246 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+04-04-2023 10:30:01.020 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarting - Starting SpringCefimApplicationTests using Java 19.0.2 with PID 4764 (started by weyte in C:\spring\cefim-spring\springcefim)
+04-04-2023 10:30:01.021 [main] INFO  f.w.s.SpringCefimApplicationTests.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+04-04-2023 10:30:01.485 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+04-04-2023 10:30:01.499 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+04-04-2023 10:30:01.805 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+04-04-2023 10:30:01.842 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.7.Final
+04-04-2023 10:30:02.078 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+04-04-2023 10:30:02.082 [main] WARN  c.z.hikari.util.DriverDataSource.<init> - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+04-04-2023 10:30:02.215 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4bce62b
+04-04-2023 10:30:02.217 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+04-04-2023 10:30:02.256 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+04-04-2023 10:30:02.472 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+04-04-2023 10:30:02.479 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 10:30:02.604 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-04-2023 10:30:02.852 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+04-04-2023 10:30:02.853 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+04-04-2023 10:30:02.853 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 0 ms
+04-04-2023 10:30:02.874 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarted - Started SpringCefimApplicationTests in 2.014 seconds (process running for 2.893)
+04-04-2023 10:30:03.186 [main] INFO  f.w.s.SpringCefimApplicationTests.TestgetProductNameList - result : [org.hibernate.jpa.spi.NativeQueryTupleTransformer$NativeTupleImpl@6c737fdb, org.hibernate.jpa.spi.NativeQueryTupleTransformer$NativeTupleImpl@66a93b25, org.hibernate.jpa.spi.NativeQueryTupleTransformer$NativeTupleImpl@3f3f554f, org.hibernate.jpa.spi.NativeQueryTupleTransformer$NativeTupleImpl@3186f8f5, org.hibernate.jpa.spi.NativeQueryTupleTransformer$NativeTupleImpl@467cd4b9, org.hibernate.jpa.spi.NativeQueryTupleTransformer$NativeTupleImpl@69a3bf40, org.hibernate.jpa.spi.NativeQueryTupleTransformer$NativeTupleImpl@2c731a16, org.hibernate.jpa.spi.NativeQueryTupleTransformer$NativeTupleImpl@2a341e3d, org.hibernate.jpa.spi.NativeQueryTupleTransformer$NativeTupleImpl@a4dcede, org.hibernate.jpa.spi.NativeQueryTupleTransformer$NativeTupleImpl@7ee02968, org.hibernate.jpa.spi.NativeQueryTupleTransformer$NativeTupleImpl@4a773f08, org.hibernate.jpa.spi.NativeQueryTupleTransformer$NativeTupleImpl@40b8158d]
+04-04-2023 10:30:03.199 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 10:30:03.200 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+04-04-2023 10:30:03.205 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+04-04-2023 10:57:40.609 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarting - Starting SpringCefimApplicationTests using Java 19.0.2 with PID 9844 (started by weyte in C:\spring\cefim-spring\springcefim)
+04-04-2023 10:57:40.610 [main] INFO  f.w.s.SpringCefimApplicationTests.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+04-04-2023 10:57:41.008 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+04-04-2023 10:57:41.023 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+04-04-2023 10:57:41.316 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+04-04-2023 10:57:41.352 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.7.Final
+04-04-2023 10:57:41.578 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+04-04-2023 10:57:41.581 [main] WARN  c.z.hikari.util.DriverDataSource.<init> - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+04-04-2023 10:57:41.713 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@681de87f
+04-04-2023 10:57:41.715 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+04-04-2023 10:57:41.753 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+04-04-2023 10:57:41.969 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+04-04-2023 10:57:41.977 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 10:57:42.105 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-04-2023 10:57:42.339 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+04-04-2023 10:57:42.339 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+04-04-2023 10:57:42.340 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 0 ms
+04-04-2023 10:57:42.365 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarted - Started SpringCefimApplicationTests in 1.913 seconds (process running for 2.784)
+04-04-2023 10:57:42.672 [main] INFO  f.w.s.SpringCefimApplicationTests.TestgetProductNameList - result : Smartphone Samsung - Ordinateur portable - Tablette tactile - Casque audio - Enceinte Bluetooth - Smartphone Samsung - Ordinateur portable - Tablette tactile - Casque audio - Enceinte Bluetooth - Smartphone Samsung - Smartphone Samsung
+04-04-2023 10:57:42.685 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 10:57:42.686 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+04-04-2023 10:57:42.691 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+04-04-2023 11:00:11.957 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarting - Starting SpringCefimApplicationTests using Java 19.0.2 with PID 21628 (started by weyte in C:\spring\cefim-spring\springcefim)
+04-04-2023 11:00:11.959 [main] INFO  f.w.s.SpringCefimApplicationTests.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+04-04-2023 11:00:12.381 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+04-04-2023 11:00:12.397 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+04-04-2023 11:00:12.691 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+04-04-2023 11:00:12.727 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.7.Final
+04-04-2023 11:00:12.957 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+04-04-2023 11:00:12.960 [main] WARN  c.z.hikari.util.DriverDataSource.<init> - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+04-04-2023 11:00:13.093 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15a8cebd
+04-04-2023 11:00:13.094 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+04-04-2023 11:00:13.132 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+04-04-2023 11:00:13.354 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+04-04-2023 11:00:13.362 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 11:00:13.484 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-04-2023 11:00:13.720 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+04-04-2023 11:00:13.721 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+04-04-2023 11:00:13.722 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 1 ms
+04-04-2023 11:00:13.742 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarted - Started SpringCefimApplicationTests in 1.946 seconds (process running for 2.801)
+04-04-2023 11:00:14.048 [main] INFO  f.w.s.SpringCefimApplicationTests.TestgetProductNameList - result : Smartphone Samsung - Ordinateur portable - Tablette tactile - Casque audio - Enceinte Bluetooth - Smartphone Samsung - Ordinateur portable - Tablette tactile - Casque audio - Enceinte Bluetooth - Smartphone Samsung - Smartphone Samsung
+04-04-2023 11:00:14.060 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 11:00:14.062 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+04-04-2023 11:00:14.067 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+04-04-2023 11:04:20.235 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarting - Starting SpringCefimApplicationTests using Java 19.0.2 with PID 11892 (started by weyte in C:\spring\cefim-spring\springcefim)
+04-04-2023 11:04:20.236 [main] INFO  f.w.s.SpringCefimApplicationTests.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+04-04-2023 11:04:20.651 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+04-04-2023 11:04:20.667 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+04-04-2023 11:04:20.961 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+04-04-2023 11:04:21.001 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.7.Final
+04-04-2023 11:04:21.238 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+04-04-2023 11:04:21.240 [main] WARN  c.z.hikari.util.DriverDataSource.<init> - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+04-04-2023 11:04:21.380 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2a484710
+04-04-2023 11:04:21.383 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+04-04-2023 11:04:21.420 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+04-04-2023 11:04:21.644 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+04-04-2023 11:04:21.651 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 11:04:21.771 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-04-2023 11:04:22.019 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+04-04-2023 11:04:22.019 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+04-04-2023 11:04:22.020 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 0 ms
+04-04-2023 11:04:22.045 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarted - Started SpringCefimApplicationTests in 1.973 seconds (process running for 2.83)
+04-04-2023 11:04:22.358 [main] INFO  f.w.s.SpringCefimApplicationTests.TestgetProductNameList - ProductNameList : Smartphone Samsung - Ordinateur portable - Tablette tactile - Casque audio - Enceinte Bluetooth - Smartphone Samsung - Ordinateur portable - Tablette tactile - Casque audio - Enceinte Bluetooth - Smartphone Samsung - Smartphone Samsung
+04-04-2023 11:04:22.370 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 11:04:22.371 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+04-04-2023 11:04:22.378 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+04-04-2023 12:22:11.425 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarting - Starting SpringCefimApplicationTests using Java 19.0.2 with PID 16008 (started by weyte in C:\spring\cefim-spring\springcefim)
+04-04-2023 12:22:11.427 [main] INFO  f.w.s.SpringCefimApplicationTests.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+04-04-2023 12:22:11.835 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+04-04-2023 12:22:11.851 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+04-04-2023 12:22:12.157 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+04-04-2023 12:22:12.194 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.7.Final
+04-04-2023 12:22:12.423 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+04-04-2023 12:22:12.426 [main] WARN  c.z.hikari.util.DriverDataSource.<init> - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+04-04-2023 12:22:12.541 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ab63838
+04-04-2023 12:22:12.543 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+04-04-2023 12:22:12.580 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+04-04-2023 12:22:12.800 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+04-04-2023 12:22:12.809 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 12:22:12.937 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-04-2023 12:22:13.181 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+04-04-2023 12:22:13.181 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+04-04-2023 12:22:13.182 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 1 ms
+04-04-2023 12:22:13.200 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarted - Started SpringCefimApplicationTests in 1.939 seconds (process running for 2.808)
+04-04-2023 12:22:13.565 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 12:22:13.566 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+04-04-2023 12:22:13.572 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+04-04-2023 12:22:31.538 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarting - Starting SpringCefimApplicationTests using Java 19.0.2 with PID 17012 (started by weyte in C:\spring\cefim-spring\springcefim)
+04-04-2023 12:22:31.540 [main] INFO  f.w.s.SpringCefimApplicationTests.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+04-04-2023 12:22:31.953 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+04-04-2023 12:22:31.968 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+04-04-2023 12:22:32.252 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+04-04-2023 12:22:32.288 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.7.Final
+04-04-2023 12:22:32.523 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+04-04-2023 12:22:32.526 [main] WARN  c.z.hikari.util.DriverDataSource.<init> - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+04-04-2023 12:22:32.647 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7bf018dd
+04-04-2023 12:22:32.649 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+04-04-2023 12:22:32.687 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+04-04-2023 12:22:32.897 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+04-04-2023 12:22:32.905 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 12:22:33.029 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-04-2023 12:22:33.271 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+04-04-2023 12:22:33.271 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+04-04-2023 12:22:33.272 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 0 ms
+04-04-2023 12:22:33.296 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarted - Started SpringCefimApplicationTests in 1.917 seconds (process running for 2.769)
+04-04-2023 12:22:33.665 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 12:22:33.667 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+04-04-2023 12:22:33.673 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+04-04-2023 12:22:43.895 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarting - Starting SpringCefimApplicationTests using Java 19.0.2 with PID 21928 (started by weyte in C:\spring\cefim-spring\springcefim)
+04-04-2023 12:22:43.896 [main] INFO  f.w.s.SpringCefimApplicationTests.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+04-04-2023 12:22:44.312 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+04-04-2023 12:22:44.328 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+04-04-2023 12:22:44.620 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+04-04-2023 12:22:44.657 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.7.Final
+04-04-2023 12:22:44.892 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+04-04-2023 12:22:44.894 [main] WARN  c.z.hikari.util.DriverDataSource.<init> - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+04-04-2023 12:22:45.040 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7bf018dd
+04-04-2023 12:22:45.042 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+04-04-2023 12:22:45.081 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+04-04-2023 12:22:45.291 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+04-04-2023 12:22:45.299 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 12:22:45.433 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-04-2023 12:22:45.693 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+04-04-2023 12:22:45.694 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+04-04-2023 12:22:45.702 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 8 ms
+04-04-2023 12:22:45.722 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarted - Started SpringCefimApplicationTests in 1.983 seconds (process running for 2.837)
+04-04-2023 12:22:46.082 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 12:22:46.084 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+04-04-2023 12:22:46.090 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+04-04-2023 15:06:01.938 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarting - Starting SpringCefimApplicationTests using Java 19.0.2 with PID 12608 (started by weyte in C:\spring\cefim-spring\springcefim)
+04-04-2023 15:06:01.939 [main] INFO  f.w.s.SpringCefimApplicationTests.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+04-04-2023 15:06:02.356 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+04-04-2023 15:06:02.370 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+04-04-2023 15:06:02.664 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+04-04-2023 15:06:02.701 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.7.Final
+04-04-2023 15:06:02.937 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+04-04-2023 15:06:02.940 [main] WARN  c.z.hikari.util.DriverDataSource.<init> - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+04-04-2023 15:06:03.053 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ab63838
+04-04-2023 15:06:03.055 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+04-04-2023 15:06:03.093 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+04-04-2023 15:06:03.317 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+04-04-2023 15:06:03.326 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 15:06:03.454 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-04-2023 15:06:03.692 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+04-04-2023 15:06:03.693 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+04-04-2023 15:06:03.693 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 0 ms
+04-04-2023 15:06:03.711 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarted - Started SpringCefimApplicationTests in 1.932 seconds (process running for 2.763)
+04-04-2023 15:06:03.931 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 15:06:03.933 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+04-04-2023 15:06:03.938 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+04-04-2023 15:09:05.522 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarting - Starting SpringCefimApplicationTests using Java 19.0.2 with PID 24660 (started by weyte in C:\spring\cefim-spring\springcefim)
+04-04-2023 15:09:05.524 [main] INFO  f.w.s.SpringCefimApplicationTests.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+04-04-2023 15:09:05.942 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+04-04-2023 15:09:05.956 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+04-04-2023 15:09:06.257 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+04-04-2023 15:09:06.294 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.7.Final
+04-04-2023 15:09:06.523 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+04-04-2023 15:09:06.526 [main] WARN  c.z.hikari.util.DriverDataSource.<init> - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+04-04-2023 15:09:06.641 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ab63838
+04-04-2023 15:09:06.643 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+04-04-2023 15:09:06.678 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+04-04-2023 15:09:06.882 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+04-04-2023 15:09:06.892 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 15:09:07.012 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-04-2023 15:09:07.254 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+04-04-2023 15:09:07.254 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+04-04-2023 15:09:07.254 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 0 ms
+04-04-2023 15:09:07.280 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarted - Started SpringCefimApplicationTests in 1.909 seconds (process running for 2.74)
+04-04-2023 15:09:07.491 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 15:09:07.492 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+04-04-2023 15:09:07.497 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+04-04-2023 15:12:47.112 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarting - Starting SpringCefimApplicationTests using Java 19.0.2 with PID 3000 (started by weyte in C:\spring\cefim-spring\springcefim)
+04-04-2023 15:12:47.113 [main] INFO  f.w.s.SpringCefimApplicationTests.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+04-04-2023 15:12:47.511 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+04-04-2023 15:12:47.528 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+04-04-2023 15:12:47.825 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+04-04-2023 15:12:47.862 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.7.Final
+04-04-2023 15:12:48.092 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+04-04-2023 15:12:48.095 [main] WARN  c.z.hikari.util.DriverDataSource.<init> - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+04-04-2023 15:12:48.207 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ab63838
+04-04-2023 15:12:48.208 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+04-04-2023 15:12:48.242 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+04-04-2023 15:12:48.458 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+04-04-2023 15:12:48.466 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 15:12:48.583 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-04-2023 15:12:48.828 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+04-04-2023 15:12:48.829 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+04-04-2023 15:12:48.829 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 0 ms
+04-04-2023 15:12:48.855 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarted - Started SpringCefimApplicationTests in 1.895 seconds (process running for 2.725)
+04-04-2023 15:12:49.160 [main] INFO  f.w.s.SpringCefimApplicationTests.TestgetProductNameList - result : Smartphone Samsung - Ordinateur portable - Tablette tactile - Casque audio - Enceinte Bluetooth - Smartphone Samsung - Ordinateur portable - Tablette tactile - Casque audio - Enceinte Bluetooth - Smartphone Samsung - Smartphone Samsung
+04-04-2023 15:12:49.172 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 15:12:49.174 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+04-04-2023 15:12:49.179 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+04-04-2023 15:24:00.018 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarting - Starting SpringCefimApplicationTests using Java 19.0.2 with PID 22984 (started by weyte in C:\spring\cefim-spring\springcefim)
+04-04-2023 15:24:00.019 [main] INFO  f.w.s.SpringCefimApplicationTests.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+04-04-2023 15:24:00.474 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+04-04-2023 15:24:00.490 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+04-04-2023 15:24:00.799 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+04-04-2023 15:24:00.837 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.7.Final
+04-04-2023 15:24:01.082 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+04-04-2023 15:24:01.086 [main] WARN  c.z.hikari.util.DriverDataSource.<init> - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+04-04-2023 15:24:01.237 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@74c121d4
+04-04-2023 15:24:01.239 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+04-04-2023 15:24:01.282 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+04-04-2023 15:24:01.501 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+04-04-2023 15:24:01.509 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 15:24:01.651 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-04-2023 15:24:01.912 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+04-04-2023 15:24:01.913 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+04-04-2023 15:24:01.913 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 0 ms
+04-04-2023 15:24:01.930 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarted - Started SpringCefimApplicationTests in 2.089 seconds (process running for 2.98)
+04-04-2023 15:24:02.258 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 15:24:02.259 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+04-04-2023 15:24:02.265 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+04-04-2023 15:24:15.516 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarting - Starting SpringCefimApplicationTests using Java 19.0.2 with PID 1476 (started by weyte in C:\spring\cefim-spring\springcefim)
+04-04-2023 15:24:15.517 [main] INFO  f.w.s.SpringCefimApplicationTests.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+04-04-2023 15:24:15.929 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+04-04-2023 15:24:15.943 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+04-04-2023 15:24:16.264 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+04-04-2023 15:24:16.300 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.7.Final
+04-04-2023 15:24:16.539 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+04-04-2023 15:24:16.542 [main] WARN  c.z.hikari.util.DriverDataSource.<init> - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+04-04-2023 15:24:16.665 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4bce62b
+04-04-2023 15:24:16.666 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+04-04-2023 15:24:16.707 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+04-04-2023 15:24:16.956 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+04-04-2023 15:24:16.964 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 15:24:17.101 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-04-2023 15:24:17.363 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+04-04-2023 15:24:17.363 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+04-04-2023 15:24:17.364 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 1 ms
+04-04-2023 15:24:17.382 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarted - Started SpringCefimApplicationTests in 2.026 seconds (process running for 2.889)
+04-04-2023 15:24:17.721 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 15:24:17.722 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+04-04-2023 15:24:17.729 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+04-04-2023 15:24:36.464 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarting - Starting SpringCefimApplicationTests using Java 19.0.2 with PID 23852 (started by weyte in C:\spring\cefim-spring\springcefim)
+04-04-2023 15:24:36.465 [main] INFO  f.w.s.SpringCefimApplicationTests.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+04-04-2023 15:24:36.871 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+04-04-2023 15:24:36.885 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+04-04-2023 15:24:37.176 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+04-04-2023 15:24:37.215 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.7.Final
+04-04-2023 15:24:37.452 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+04-04-2023 15:24:37.456 [main] WARN  c.z.hikari.util.DriverDataSource.<init> - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+04-04-2023 15:24:37.601 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5a4464c5
+04-04-2023 15:24:37.602 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+04-04-2023 15:24:37.645 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+04-04-2023 15:24:37.880 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+04-04-2023 15:24:37.889 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 15:24:38.022 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-04-2023 15:24:38.274 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+04-04-2023 15:24:38.274 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+04-04-2023 15:24:38.275 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 0 ms
+04-04-2023 15:24:38.300 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarted - Started SpringCefimApplicationTests in 1.985 seconds (process running for 2.837)
+04-04-2023 15:24:38.625 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 15:24:38.626 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+04-04-2023 15:24:38.633 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+04-04-2023 15:26:19.637 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarting - Starting SpringCefimApplicationTests using Java 19.0.2 with PID 7660 (started by weyte in C:\spring\cefim-spring\springcefim)
+04-04-2023 15:26:19.638 [main] INFO  f.w.s.SpringCefimApplicationTests.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+04-04-2023 15:26:20.088 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+04-04-2023 15:26:20.104 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+04-04-2023 15:26:20.451 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+04-04-2023 15:26:20.493 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.7.Final
+04-04-2023 15:26:20.785 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+04-04-2023 15:26:20.789 [main] WARN  c.z.hikari.util.DriverDataSource.<init> - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+04-04-2023 15:26:20.931 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5d9d2119
+04-04-2023 15:26:20.933 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+04-04-2023 15:26:20.986 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+04-04-2023 15:26:21.204 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+04-04-2023 15:26:21.214 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 15:26:21.341 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-04-2023 15:26:21.605 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+04-04-2023 15:26:21.605 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+04-04-2023 15:26:21.606 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 1 ms
+04-04-2023 15:26:21.624 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarted - Started SpringCefimApplicationTests in 2.154 seconds (process running for 3.086)
+04-04-2023 15:26:21.886 [main] INFO  f.w.springcefim.HelloController.helloWorld - Hello World
+04-04-2023 15:26:21.910 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+04-04-2023 15:26:21.911 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+04-04-2023 15:26:21.917 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.

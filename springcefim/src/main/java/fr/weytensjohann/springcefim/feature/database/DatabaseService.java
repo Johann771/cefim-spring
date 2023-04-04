@@ -17,10 +17,17 @@ public class DatabaseService {
     @Autowired
     private EntityManager entityManager;
     public List<String> getProductNameList() {
-        Query query = entityManager.createNativeQuery("show tables;");
-        Tuple tuple = ((Tuple) query.getResultList());
-        String resultList = String.join(" - ", tuple.toString());
-        return Collections.singletonList(resultList);
+        Query query = entityManager.createNativeQuery("SELECT nom FROM produits;",Tuple.class);
+         List<Tuple> tuple = (List<Tuple>) query.getResultList();
+         List<String> results = tuple.stream().map(t -> t.get("nom").toString()).toList();
+         return results;
+    }
+    public List<ProduitDto> getListProduct(){
+        String request = "select id, nom, description from produits";
+        Query query = entityManager.createNativeQuery(request, Tuple.class);
+        List<Tuple> resultList = query.getResultList();
+        List<ProduitDto> collect = resultList.stream().map(ProduitDto::new).toList();
+        return collect;
     }
 
 }

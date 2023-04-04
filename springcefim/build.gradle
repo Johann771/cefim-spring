@@ -19,6 +19,7 @@ dependencies {
 	//MYSQL
 	runtimeOnly('mysql:mysql-connector-java:8.0.29')
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+
 }
 
 tasks.named('test') {
