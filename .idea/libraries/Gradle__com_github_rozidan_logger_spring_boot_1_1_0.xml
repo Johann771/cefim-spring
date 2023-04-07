@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: com.github.rozidan:logger-spring-boot:1.1.0">
+  <library name="Gradle: com.github.rozidan:logger-spring-boot:1.1.0" external-system-id="GRADLE">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.rozidan/logger-spring-boot/1.1.0/f6e5a2e54cf264c735336963b395f624e0acdd26/logger-spring-boot-1.1.0.jar!/" />
     </CLASSES>

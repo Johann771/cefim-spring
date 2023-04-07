@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: org.apache.tomcat.embed:tomcat-embed-core:10.1.7">
+  <library name="Gradle: org.apache.tomcat.embed:tomcat-embed-core:10.1.7" external-system-id="GRADLE">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/10.1.7/d486363d49c6536556af38d7e1052d56a39319e5/tomcat-embed-core-10.1.7.jar!/" />
     </CLASSES>
