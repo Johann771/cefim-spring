@@ -225,7 +225,7 @@
 06-04-2023 10:47:56.447 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 06-04-2023 10:47:57.057 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 06-04-2023 10:47:57.064 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-06-04-2023 10:47:57.240 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+06-04-2023 10:47:57.240 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 06-04-2023 10:47:57.585 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 06-04-2023 10:47:57.831 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 06-04-2023 10:47:57.832 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -248,7 +248,7 @@
 06-04-2023 10:48:25.023 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 06-04-2023 10:48:25.538 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 06-04-2023 10:48:25.546 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-06-04-2023 10:48:25.753 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+06-04-2023 10:48:25.753 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 06-04-2023 10:48:26.143 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 06-04-2023 10:48:26.432 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 06-04-2023 10:48:26.432 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -271,7 +271,7 @@
 06-04-2023 10:48:43.461 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 06-04-2023 10:48:44.019 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 06-04-2023 10:48:44.025 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-06-04-2023 10:48:44.212 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+06-04-2023 10:48:44.212 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 06-04-2023 10:48:44.588 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 06-04-2023 10:48:44.880 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 06-04-2023 10:48:44.880 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -294,7 +294,7 @@
 06-04-2023 10:48:56.452 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 06-04-2023 10:48:57.081 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 06-04-2023 10:48:57.088 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-06-04-2023 10:48:57.310 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+06-04-2023 10:48:57.310 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 06-04-2023 10:48:57.705 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 06-04-2023 10:48:57.982 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 06-04-2023 10:48:57.982 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -313,7 +313,7 @@
 06-04-2023 10:52:22.601 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 06-04-2023 10:52:23.136 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 06-04-2023 10:52:23.142 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-06-04-2023 10:52:23.332 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+06-04-2023 10:52:23.332 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 06-04-2023 10:52:23.731 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 06-04-2023 10:52:24.028 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 06-04-2023 10:52:24.029 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -335,7 +335,7 @@
 06-04-2023 10:52:49.331 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 06-04-2023 10:52:49.878 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 06-04-2023 10:52:49.883 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-06-04-2023 10:52:50.086 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+06-04-2023 10:52:50.086 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 06-04-2023 10:52:50.475 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 06-04-2023 10:52:50.768 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 06-04-2023 10:52:50.769 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -357,7 +357,7 @@
 06-04-2023 10:52:59.549 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 06-04-2023 10:53:00.098 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 06-04-2023 10:53:00.106 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-06-04-2023 10:53:00.293 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+06-04-2023 10:53:00.293 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 06-04-2023 10:53:00.743 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 06-04-2023 10:53:01.059 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 06-04-2023 10:53:01.059 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -379,7 +379,7 @@
 06-04-2023 10:53:08.868 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 06-04-2023 10:53:09.390 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 06-04-2023 10:53:09.397 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-06-04-2023 10:53:09.596 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+06-04-2023 10:53:09.596 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 06-04-2023 10:53:09.969 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 06-04-2023 10:53:10.267 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 06-04-2023 10:53:10.267 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -401,7 +401,7 @@
 06-04-2023 10:53:25.323 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 06-04-2023 10:53:25.826 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 06-04-2023 10:53:25.832 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-06-04-2023 10:53:26.008 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+06-04-2023 10:53:26.008 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 06-04-2023 10:53:26.368 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 06-04-2023 10:53:26.620 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 06-04-2023 10:53:26.620 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -423,7 +423,7 @@
 06-04-2023 10:53:36.363 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 06-04-2023 10:53:36.860 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 06-04-2023 10:53:36.866 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-06-04-2023 10:53:37.043 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+06-04-2023 10:53:37.043 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 06-04-2023 10:53:37.401 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 06-04-2023 10:53:37.651 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 06-04-2023 10:53:37.652 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -445,7 +445,7 @@
 06-04-2023 10:53:51.710 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 06-04-2023 10:53:52.220 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 06-04-2023 10:53:52.226 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-06-04-2023 10:53:52.415 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+06-04-2023 10:53:52.415 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 06-04-2023 10:53:52.768 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 06-04-2023 10:53:53.007 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 06-04-2023 10:53:53.007 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -467,7 +467,7 @@
 06-04-2023 10:55:39.885 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 06-04-2023 10:55:40.403 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 06-04-2023 10:55:40.409 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-06-04-2023 10:55:40.590 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+06-04-2023 10:55:40.590 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 06-04-2023 10:55:40.944 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 06-04-2023 10:55:41.215 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 06-04-2023 10:55:41.215 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -489,7 +489,7 @@
 06-04-2023 10:55:54.974 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 06-04-2023 10:55:55.513 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 06-04-2023 10:55:55.520 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-06-04-2023 10:55:55.698 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+06-04-2023 10:55:55.698 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 06-04-2023 10:55:56.045 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 06-04-2023 10:55:56.327 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 06-04-2023 10:55:56.328 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -511,7 +511,7 @@
 06-04-2023 10:56:09.994 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 06-04-2023 10:56:10.510 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 06-04-2023 10:56:10.516 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-06-04-2023 10:56:10.700 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+06-04-2023 10:56:10.700 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 06-04-2023 10:56:11.041 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 06-04-2023 10:56:11.289 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 06-04-2023 10:56:11.289 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -537,7 +537,7 @@
 06-04-2023 10:59:20.905 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 06-04-2023 10:59:21.480 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 06-04-2023 10:59:21.487 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-06-04-2023 10:59:21.686 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+06-04-2023 10:59:21.686 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 06-04-2023 10:59:22.039 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 06-04-2023 10:59:22.317 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 06-04-2023 10:59:22.318 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -559,7 +559,7 @@
 06-04-2023 11:00:12.292 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 06-04-2023 11:00:12.825 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 06-04-2023 11:00:12.830 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-06-04-2023 11:00:13.011 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+06-04-2023 11:00:13.011 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 06-04-2023 11:00:13.371 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 06-04-2023 11:00:13.650 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 06-04-2023 11:00:13.650 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -581,7 +581,7 @@
 06-04-2023 11:00:23.294 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 06-04-2023 11:00:23.806 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 06-04-2023 11:00:23.813 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-06-04-2023 11:00:23.998 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+06-04-2023 11:00:23.998 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 06-04-2023 11:00:24.329 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 06-04-2023 11:00:24.569 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 06-04-2023 11:00:24.569 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -603,7 +603,7 @@
 06-04-2023 14:25:30.238 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 06-04-2023 14:25:30.748 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 06-04-2023 14:25:30.755 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-06-04-2023 14:25:30.933 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+06-04-2023 14:25:30.933 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 06-04-2023 14:25:31.289 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 06-04-2023 14:25:31.543 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 06-04-2023 14:25:31.544 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -625,7 +625,7 @@
 06-04-2023 14:29:23.596 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 06-04-2023 14:29:24.244 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 06-04-2023 14:29:24.252 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-06-04-2023 14:29:24.480 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+06-04-2023 14:29:24.480 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 06-04-2023 14:29:24.878 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 06-04-2023 14:29:25.200 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 06-04-2023 14:29:25.200 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -647,7 +647,7 @@
 06-04-2023 14:30:42.653 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 06-04-2023 14:30:43.169 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 06-04-2023 14:30:43.177 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-06-04-2023 14:30:43.356 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+06-04-2023 14:30:43.356 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 06-04-2023 14:30:43.699 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 06-04-2023 14:30:43.948 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 06-04-2023 14:30:43.948 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -671,7 +671,7 @@
 06-04-2023 14:35:13.287 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 06-04-2023 14:35:13.880 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 06-04-2023 14:35:13.888 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-06-04-2023 14:35:14.071 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+06-04-2023 14:35:14.071 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 06-04-2023 14:35:14.423 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 06-04-2023 14:35:14.698 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 06-04-2023 14:35:14.699 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -696,7 +696,7 @@
 06-04-2023 14:39:06.037 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 06-04-2023 14:39:06.693 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 06-04-2023 14:39:06.700 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-06-04-2023 14:39:06.897 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+06-04-2023 14:39:06.897 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 06-04-2023 14:39:07.287 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 06-04-2023 14:39:07.567 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 06-04-2023 14:39:07.567 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -718,7 +718,7 @@
 06-04-2023 14:46:57.912 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 06-04-2023 14:46:58.454 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 06-04-2023 14:46:58.461 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-06-04-2023 14:46:58.649 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+06-04-2023 14:46:58.649 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 06-04-2023 14:46:59.010 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 06-04-2023 14:46:59.275 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 06-04-2023 14:46:59.275 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -740,7 +740,7 @@
 06-04-2023 14:48:45.119 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 06-04-2023 14:48:45.706 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 06-04-2023 14:48:45.713 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-06-04-2023 14:48:45.908 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+06-04-2023 14:48:45.908 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 06-04-2023 14:48:46.283 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 06-04-2023 14:48:46.563 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 06-04-2023 14:48:46.564 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -762,7 +762,7 @@
 06-04-2023 14:54:17.660 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 06-04-2023 14:54:18.210 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 06-04-2023 14:54:18.217 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-06-04-2023 14:54:18.408 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+06-04-2023 14:54:18.408 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 06-04-2023 14:54:18.740 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 06-04-2023 14:54:19.002 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 06-04-2023 14:54:19.002 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -784,7 +784,7 @@
 06-04-2023 14:55:53.421 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 06-04-2023 14:55:54.017 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 06-04-2023 14:55:54.025 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-06-04-2023 14:55:54.231 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+06-04-2023 14:55:54.231 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 06-04-2023 14:55:54.617 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 06-04-2023 14:55:54.900 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 06-04-2023 14:55:54.900 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -806,7 +806,7 @@
 06-04-2023 14:56:03.863 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 06-04-2023 14:56:04.831 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 06-04-2023 14:56:04.847 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-06-04-2023 14:56:05.169 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+06-04-2023 14:56:05.169 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 06-04-2023 14:56:05.733 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 06-04-2023 14:56:06.264 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 06-04-2023 14:56:06.264 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -828,7 +828,7 @@
 06-04-2023 14:56:24.531 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 06-04-2023 14:56:25.114 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 06-04-2023 14:56:25.121 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-06-04-2023 14:56:25.320 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+06-04-2023 14:56:25.320 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 06-04-2023 14:56:25.696 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 06-04-2023 14:56:25.973 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 06-04-2023 14:56:25.974 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -851,7 +851,7 @@
 06-04-2023 14:57:48.557 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 06-04-2023 14:57:49.047 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 06-04-2023 14:57:49.054 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-06-04-2023 14:57:49.234 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+06-04-2023 14:57:49.234 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 06-04-2023 14:57:49.601 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 06-04-2023 14:57:49.851 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 06-04-2023 14:57:49.851 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -874,7 +874,7 @@
 06-04-2023 14:58:37.300 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 06-04-2023 14:58:37.825 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 06-04-2023 14:58:37.831 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-06-04-2023 14:58:38.033 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+06-04-2023 14:58:38.033 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 06-04-2023 14:58:38.378 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 06-04-2023 14:58:38.622 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 06-04-2023 14:58:38.622 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -896,7 +896,7 @@
 06-04-2023 15:00:11.134 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 06-04-2023 15:00:11.662 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 06-04-2023 15:00:11.668 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-06-04-2023 15:00:11.858 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+06-04-2023 15:00:11.858 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 06-04-2023 15:00:12.211 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 06-04-2023 15:00:12.476 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 06-04-2023 15:00:12.476 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -918,7 +918,7 @@
 06-04-2023 15:39:20.203 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 06-04-2023 15:39:20.705 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 06-04-2023 15:39:20.710 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-06-04-2023 15:39:20.898 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+06-04-2023 15:39:20.898 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 06-04-2023 15:39:21.264 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 06-04-2023 15:39:21.514 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 06-04-2023 15:39:21.514 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -940,7 +940,7 @@
 06-04-2023 15:40:16.113 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 06-04-2023 15:40:16.778 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 06-04-2023 15:40:16.785 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-06-04-2023 15:40:16.985 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+06-04-2023 15:40:16.985 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 06-04-2023 15:40:17.390 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 06-04-2023 15:40:17.667 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 06-04-2023 15:40:17.667 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -962,7 +962,7 @@
 06-04-2023 15:41:34.809 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 06-04-2023 15:41:35.363 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 06-04-2023 15:41:35.369 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-06-04-2023 15:41:35.580 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+06-04-2023 15:41:35.580 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 06-04-2023 15:41:35.946 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 06-04-2023 15:41:36.204 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 06-04-2023 15:41:36.204 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -984,7 +984,7 @@
 06-04-2023 15:41:43.298 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 06-04-2023 15:41:43.925 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 06-04-2023 15:41:43.933 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-06-04-2023 15:41:44.128 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+06-04-2023 15:41:44.128 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 06-04-2023 15:41:44.489 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 06-04-2023 15:41:44.766 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 06-04-2023 15:41:44.767 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -1006,7 +1006,7 @@
 06-04-2023 16:19:46.950 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 06-04-2023 16:19:47.478 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 06-04-2023 16:19:47.485 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-06-04-2023 16:19:47.673 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+06-04-2023 16:19:47.673 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 06-04-2023 16:19:48.021 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 06-04-2023 16:19:48.278 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 06-04-2023 16:19:48.278 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -1028,7 +1028,7 @@
 06-04-2023 16:20:16.522 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 06-04-2023 16:20:17.055 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 06-04-2023 16:20:17.062 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-06-04-2023 16:20:17.258 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+06-04-2023 16:20:17.258 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 06-04-2023 16:20:17.604 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 06-04-2023 16:20:17.855 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 06-04-2023 16:20:17.855 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -1050,7 +1050,7 @@
 06-04-2023 16:20:44.809 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 06-04-2023 16:20:45.351 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 06-04-2023 16:20:45.358 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-06-04-2023 16:20:45.552 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+06-04-2023 16:20:45.552 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 06-04-2023 16:20:45.916 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 06-04-2023 16:20:46.166 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 06-04-2023 16:20:46.167 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -1072,7 +1072,7 @@
 06-04-2023 16:24:35.254 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 06-04-2023 16:24:35.791 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 06-04-2023 16:24:35.798 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-06-04-2023 16:24:35.990 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+06-04-2023 16:24:35.990 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 06-04-2023 16:24:36.341 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 06-04-2023 16:24:36.595 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 06-04-2023 16:24:36.595 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''

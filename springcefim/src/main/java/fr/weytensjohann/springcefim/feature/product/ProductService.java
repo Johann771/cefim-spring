@@ -1,4 +1,4 @@
-package fr.weytensjohann.springcefim.feature.database;
+package fr.weytensjohann.springcefim.feature.product;
 
 import jakarta.persistence.EntityNotFoundException;
 import org.hibernate.exception.ConstraintViolationException;

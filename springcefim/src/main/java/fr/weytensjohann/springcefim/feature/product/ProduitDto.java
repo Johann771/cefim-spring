@@ -1,10 +1,8 @@
-package fr.weytensjohann.springcefim.feature.database;
+package fr.weytensjohann.springcefim.feature.product;
 
 import jakarta.persistence.Tuple;
 
-import java.math.BigDecimal;
 import java.util.Objects;
-import java.util.Optional;
 
 public class ProduitDto {
     private Integer id;

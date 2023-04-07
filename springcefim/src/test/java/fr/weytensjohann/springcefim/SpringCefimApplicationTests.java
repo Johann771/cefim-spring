@@ -2,12 +2,11 @@ package fr.weytensjohann.springcefim;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import fr.weytensjohann.springcefim.feature.database.DatabaseService;
-import fr.weytensjohann.springcefim.feature.database.Produit;
-import fr.weytensjohann.springcefim.feature.database.ProduitDto;
-import fr.weytensjohann.springcefim.feature.database.ProduitWithPriceDto;
+import fr.weytensjohann.springcefim.feature.product.Produit;
+import fr.weytensjohann.springcefim.feature.product.ProduitDto;
+import fr.weytensjohann.springcefim.feature.product.ProduitWithPriceDto;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.Query;
-import jakarta.persistence.Tuple;
 import jakarta.transaction.Transactional;
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
@@ -114,6 +113,7 @@ class SpringCefimApplicationTests {
 		List<ProduitWithPriceDto> listProduits = databaseService.getProductByAvis(10);
 		assert listProduits.stream().allMatch(produit -> produit.equals(p1) || produit.equals(p2));
 	}
+	//A revoir
 	@Test
 	void testGetIphoneByName(){
 		ProduitWithPriceDto p1 = new ProduitWithPriceDto(7, "iphone", "portable", BigDecimal.valueOf(1000.0));
@@ -159,7 +159,7 @@ class SpringCefimApplicationTests {
 	}
 	@Test
 	void testDeleteProduct() throws Exception{
-		RequestBuilder requestBuilder = MockMvcRequestBuilders.delete("/api/product/delete/4");
+		RequestBuilder requestBuilder = MockMvcRequestBuilders.delete("/api/product/delete/3");
 		ResultMatcher resultStatus = MockMvcResultMatchers.status().isOk();
 
 		mvc.perform(requestBuilder)
@@ -172,6 +172,7 @@ class SpringCefimApplicationTests {
 		mvc.perform(requestBuilder).andExpect(resultMatcher);
 
 	}
+	//A revoir
 	@Test
 	void testDeleteProductByName() throws Exception{
 		RequestBuilder requestBuilder = MockMvcRequestBuilders.delete("/api/product?productName=iphone");

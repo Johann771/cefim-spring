@@ -314,7 +314,7 @@ Caused by: java.sql.SQLException: Tablespace is missing for table `shop`.`avis`.
 07-04-2023 10:20:09.444 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 07-04-2023 10:20:10.063 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 07-04-2023 10:20:10.071 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-07-04-2023 10:20:10.260 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+07-04-2023 10:20:10.260 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 07-04-2023 10:20:10.609 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 07-04-2023 10:20:10.877 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 07-04-2023 10:20:10.877 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -336,7 +336,7 @@ Caused by: java.sql.SQLException: Tablespace is missing for table `shop`.`avis`.
 07-04-2023 10:20:34.298 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 07-04-2023 10:20:34.868 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 07-04-2023 10:20:34.877 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-07-04-2023 10:20:35.115 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+07-04-2023 10:20:35.115 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 07-04-2023 10:20:35.608 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 07-04-2023 10:20:35.925 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 07-04-2023 10:20:35.926 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -358,7 +358,7 @@ Caused by: java.sql.SQLException: Tablespace is missing for table `shop`.`avis`.
 07-04-2023 10:22:38.566 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 07-04-2023 10:22:39.087 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 07-04-2023 10:22:39.094 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-07-04-2023 10:22:39.279 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+07-04-2023 10:22:39.279 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 07-04-2023 10:22:39.629 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 07-04-2023 10:22:39.899 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 07-04-2023 10:22:39.899 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -381,7 +381,7 @@ Caused by: java.sql.SQLException: Tablespace is missing for table `shop`.`avis`.
 07-04-2023 10:22:52.049 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 07-04-2023 10:22:52.576 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 07-04-2023 10:22:52.583 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-07-04-2023 10:22:52.764 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+07-04-2023 10:22:52.764 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 07-04-2023 10:22:53.086 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 07-04-2023 10:22:53.350 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 07-04-2023 10:22:53.350 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -403,7 +403,7 @@ Caused by: java.sql.SQLException: Tablespace is missing for table `shop`.`avis`.
 07-04-2023 10:23:25.088 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 07-04-2023 10:23:25.606 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 07-04-2023 10:23:25.613 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-07-04-2023 10:23:25.795 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+07-04-2023 10:23:25.795 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 07-04-2023 10:23:26.191 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 07-04-2023 10:23:26.448 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 07-04-2023 10:23:26.449 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -427,7 +427,7 @@ Caused by: java.sql.SQLException: Tablespace is missing for table `shop`.`avis`.
 07-04-2023 10:25:38.105 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 07-04-2023 10:25:38.646 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 07-04-2023 10:25:38.654 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-07-04-2023 10:25:38.838 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+07-04-2023 10:25:38.838 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 07-04-2023 10:25:39.197 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 07-04-2023 10:25:39.475 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 07-04-2023 10:25:39.476 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -451,7 +451,7 @@ Caused by: java.sql.SQLException: Tablespace is missing for table `shop`.`avis`.
 07-04-2023 10:28:45.210 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 07-04-2023 10:28:45.765 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 07-04-2023 10:28:45.772 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-07-04-2023 10:28:45.973 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+07-04-2023 10:28:45.973 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 07-04-2023 10:28:46.325 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 07-04-2023 10:28:46.602 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 07-04-2023 10:28:46.602 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -473,7 +473,7 @@ Caused by: java.sql.SQLException: Tablespace is missing for table `shop`.`avis`.
 07-04-2023 10:29:26.003 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 07-04-2023 10:29:26.521 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 07-04-2023 10:29:26.527 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-07-04-2023 10:29:26.704 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+07-04-2023 10:29:26.704 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 07-04-2023 10:29:27.076 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 07-04-2023 10:29:27.352 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 07-04-2023 10:29:27.353 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -495,7 +495,7 @@ Caused by: java.sql.SQLException: Tablespace is missing for table `shop`.`avis`.
 07-04-2023 10:42:38.756 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 07-04-2023 10:42:39.353 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 07-04-2023 10:42:39.360 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-07-04-2023 10:42:39.546 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+07-04-2023 10:42:39.546 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 07-04-2023 10:42:39.875 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 07-04-2023 10:42:40.125 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 07-04-2023 10:42:40.125 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -517,7 +517,7 @@ Caused by: java.sql.SQLException: Tablespace is missing for table `shop`.`avis`.
 07-04-2023 10:43:01.651 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 07-04-2023 10:43:02.218 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 07-04-2023 10:43:02.226 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-07-04-2023 10:43:02.468 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+07-04-2023 10:43:02.468 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 07-04-2023 10:43:02.884 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 07-04-2023 10:43:03.162 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 07-04-2023 10:43:03.163 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -539,7 +539,7 @@ Caused by: java.sql.SQLException: Tablespace is missing for table `shop`.`avis`.
 07-04-2023 10:43:14.240 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 07-04-2023 10:43:14.766 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 07-04-2023 10:43:14.773 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-07-04-2023 10:43:14.962 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+07-04-2023 10:43:14.962 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 07-04-2023 10:43:15.313 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 07-04-2023 10:43:15.607 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 07-04-2023 10:43:15.608 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -561,7 +561,7 @@ Caused by: java.sql.SQLException: Tablespace is missing for table `shop`.`avis`.
 07-04-2023 10:43:27.237 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 07-04-2023 10:43:27.759 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 07-04-2023 10:43:27.766 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-07-04-2023 10:43:27.947 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+07-04-2023 10:43:27.947 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 07-04-2023 10:43:28.349 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 07-04-2023 10:43:28.668 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 07-04-2023 10:43:28.669 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -583,7 +583,7 @@ Caused by: java.sql.SQLException: Tablespace is missing for table `shop`.`avis`.
 07-04-2023 10:43:37.767 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 07-04-2023 10:43:38.293 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 07-04-2023 10:43:38.300 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-07-04-2023 10:43:38.474 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+07-04-2023 10:43:38.474 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 07-04-2023 10:43:38.808 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 07-04-2023 10:43:39.086 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 07-04-2023 10:43:39.087 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -605,7 +605,7 @@ Caused by: java.sql.SQLException: Tablespace is missing for table `shop`.`avis`.
 07-04-2023 11:06:21.142 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 07-04-2023 11:06:21.675 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 07-04-2023 11:06:21.682 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-07-04-2023 11:06:21.863 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+07-04-2023 11:06:21.863 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 07-04-2023 11:06:22.196 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 07-04-2023 11:06:22.438 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 07-04-2023 11:06:22.438 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -627,7 +627,7 @@ Caused by: java.sql.SQLException: Tablespace is missing for table `shop`.`avis`.
 07-04-2023 11:06:46.978 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 07-04-2023 11:06:47.536 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 07-04-2023 11:06:47.543 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-07-04-2023 11:06:47.728 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+07-04-2023 11:06:47.728 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 07-04-2023 11:06:48.081 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 07-04-2023 11:06:48.337 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 07-04-2023 11:06:48.337 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -649,7 +649,7 @@ Caused by: java.sql.SQLException: Tablespace is missing for table `shop`.`avis`.
 07-04-2023 11:07:14.395 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 07-04-2023 11:07:14.912 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 07-04-2023 11:07:14.919 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-07-04-2023 11:07:15.096 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+07-04-2023 11:07:15.096 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 07-04-2023 11:07:15.455 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 07-04-2023 11:07:15.711 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 07-04-2023 11:07:15.712 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -671,7 +671,7 @@ Caused by: java.sql.SQLException: Tablespace is missing for table `shop`.`avis`.
 07-04-2023 11:15:50.321 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 07-04-2023 11:15:50.835 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 07-04-2023 11:15:50.841 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-07-04-2023 11:15:51.020 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+07-04-2023 11:15:51.020 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 07-04-2023 11:15:51.368 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 07-04-2023 11:15:51.619 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 07-04-2023 11:15:51.620 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -693,7 +693,7 @@ Caused by: java.sql.SQLException: Tablespace is missing for table `shop`.`avis`.
 07-04-2023 11:16:03.186 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 07-04-2023 11:16:03.751 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 07-04-2023 11:16:03.758 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-07-04-2023 11:16:03.959 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+07-04-2023 11:16:03.959 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 07-04-2023 11:16:04.311 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 07-04-2023 11:16:04.579 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 07-04-2023 11:16:04.580 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -715,7 +715,7 @@ Caused by: java.sql.SQLException: Tablespace is missing for table `shop`.`avis`.
 07-04-2023 12:15:07.248 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 07-04-2023 12:15:07.798 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 07-04-2023 12:15:07.804 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-07-04-2023 12:15:07.988 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+07-04-2023 12:15:07.988 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 07-04-2023 12:15:08.336 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 07-04-2023 12:15:08.599 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 07-04-2023 12:15:08.599 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -738,7 +738,7 @@ Caused by: java.sql.SQLException: Tablespace is missing for table `shop`.`avis`.
 07-04-2023 12:15:25.209 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 07-04-2023 12:15:25.754 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 07-04-2023 12:15:25.761 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-07-04-2023 12:15:25.942 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+07-04-2023 12:15:25.942 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 07-04-2023 12:15:26.295 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 07-04-2023 12:15:26.543 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 07-04-2023 12:15:26.543 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -760,7 +760,7 @@ Caused by: java.sql.SQLException: Tablespace is missing for table `shop`.`avis`.
 07-04-2023 12:15:36.356 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 07-04-2023 12:15:36.872 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 07-04-2023 12:15:36.879 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-07-04-2023 12:15:37.059 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+07-04-2023 12:15:37.059 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 07-04-2023 12:15:37.387 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 07-04-2023 12:15:37.631 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 07-04-2023 12:15:37.631 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -782,7 +782,7 @@ Caused by: java.sql.SQLException: Tablespace is missing for table `shop`.`avis`.
 07-04-2023 12:18:28.760 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 07-04-2023 12:18:29.291 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 07-04-2023 12:18:29.298 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
-07-04-2023 12:18:29.478 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.database.ProductRepository
+07-04-2023 12:18:29.478 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
 07-04-2023 12:18:29.828 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 07-04-2023 12:18:30.073 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
 07-04-2023 12:18:30.073 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
@@ -791,3 +791,233 @@ Caused by: java.sql.SQLException: Tablespace is missing for table `shop`.`avis`.
 07-04-2023 12:18:30.352 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
 07-04-2023 12:18:30.353 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
 07-04-2023 12:18:30.359 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+07-04-2023 14:06:17.725 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarting - Starting SpringCefimApplicationTests using Java 19.0.2 with PID 18140 (started by weyte in C:\spring\cefim-spring\springcefim)
+07-04-2023 14:06:17.726 [main] INFO  f.w.s.SpringCefimApplicationTests.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+07-04-2023 14:06:18.161 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+07-04-2023 14:06:18.201 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interfaces.
+07-04-2023 14:06:18.511 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+07-04-2023 14:06:18.551 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.7.Final
+07-04-2023 14:06:18.789 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+07-04-2023 14:06:18.793 [main] WARN  c.z.hikari.util.DriverDataSource.<init> - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+07-04-2023 14:06:18.921 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@722787b5
+07-04-2023 14:06:18.922 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+07-04-2023 14:06:18.959 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+07-04-2023 14:06:19.505 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+07-04-2023 14:06:19.511 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+07-04-2023 14:06:19.700 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
+07-04-2023 14:06:20.017 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-04-2023 14:06:20.258 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+07-04-2023 14:06:20.259 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+07-04-2023 14:06:20.259 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 0 ms
+07-04-2023 14:06:20.280 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarted - Started SpringCefimApplicationTests in 2.711 seconds (process running for 3.533)
+07-04-2023 14:06:20.563 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+07-04-2023 14:06:20.564 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+07-04-2023 14:06:20.570 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+07-04-2023 14:06:26.937 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarting - Starting SpringCefimApplicationTests using Java 19.0.2 with PID 9108 (started by weyte in C:\spring\cefim-spring\springcefim)
+07-04-2023 14:06:26.938 [main] INFO  f.w.s.SpringCefimApplicationTests.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+07-04-2023 14:06:27.368 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+07-04-2023 14:06:27.410 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interfaces.
+07-04-2023 14:06:27.714 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+07-04-2023 14:06:27.746 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.7.Final
+07-04-2023 14:06:27.982 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+07-04-2023 14:06:27.987 [main] WARN  c.z.hikari.util.DriverDataSource.<init> - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+07-04-2023 14:06:28.115 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4217bce6
+07-04-2023 14:06:28.118 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+07-04-2023 14:06:28.163 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+07-04-2023 14:06:28.684 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+07-04-2023 14:06:28.690 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+07-04-2023 14:06:28.872 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
+07-04-2023 14:06:29.226 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-04-2023 14:06:29.477 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+07-04-2023 14:06:29.478 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+07-04-2023 14:06:29.479 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 1 ms
+07-04-2023 14:06:29.497 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarted - Started SpringCefimApplicationTests in 2.713 seconds (process running for 3.562)
+07-04-2023 14:06:29.763 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+07-04-2023 14:06:29.764 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+07-04-2023 14:06:29.771 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+07-04-2023 14:07:43.834 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarting - Starting SpringCefimApplicationTests using Java 19.0.2 with PID 7820 (started by weyte in C:\spring\cefim-spring\springcefim)
+07-04-2023 14:07:43.836 [main] INFO  f.w.s.SpringCefimApplicationTests.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+07-04-2023 14:07:44.266 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+07-04-2023 14:07:44.304 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interfaces.
+07-04-2023 14:07:44.614 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+07-04-2023 14:07:44.650 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.7.Final
+07-04-2023 14:07:44.884 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+07-04-2023 14:07:44.888 [main] WARN  c.z.hikari.util.DriverDataSource.<init> - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+07-04-2023 14:07:45.027 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7d401cdc
+07-04-2023 14:07:45.028 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+07-04-2023 14:07:45.065 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+07-04-2023 14:07:45.585 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+07-04-2023 14:07:45.591 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+07-04-2023 14:07:45.772 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
+07-04-2023 14:07:46.100 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-04-2023 14:07:46.341 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+07-04-2023 14:07:46.341 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+07-04-2023 14:07:46.342 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 1 ms
+07-04-2023 14:07:46.363 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarted - Started SpringCefimApplicationTests in 2.681 seconds (process running for 3.571)
+07-04-2023 14:07:46.632 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+07-04-2023 14:07:46.634 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+07-04-2023 14:07:46.639 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+07-04-2023 14:11:02.792 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarting - Starting SpringCefimApplicationTests using Java 19.0.2 with PID 21640 (started by weyte in C:\spring\cefim-spring\springcefim)
+07-04-2023 14:11:02.794 [main] INFO  f.w.s.SpringCefimApplicationTests.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+07-04-2023 14:11:03.213 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+07-04-2023 14:11:03.254 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interfaces.
+07-04-2023 14:11:03.562 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+07-04-2023 14:11:03.600 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.7.Final
+07-04-2023 14:11:03.833 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+07-04-2023 14:11:03.835 [main] WARN  c.z.hikari.util.DriverDataSource.<init> - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+07-04-2023 14:11:03.955 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@372954e1
+07-04-2023 14:11:03.957 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+07-04-2023 14:11:03.995 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+07-04-2023 14:11:04.478 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+07-04-2023 14:11:04.484 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+07-04-2023 14:11:04.664 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
+07-04-2023 14:11:05.130 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-04-2023 14:11:05.417 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+07-04-2023 14:11:05.417 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+07-04-2023 14:11:05.418 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 1 ms
+07-04-2023 14:11:05.441 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarted - Started SpringCefimApplicationTests in 2.801 seconds (process running for 3.665)
+07-04-2023 14:11:05.623 [main] INFO  f.w.s.feature.hello.HelloController.helloWorld - Hello World
+07-04-2023 14:11:05.649 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+07-04-2023 14:11:05.651 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+07-04-2023 14:11:05.656 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+07-04-2023 14:11:13.407 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarting - Starting SpringCefimApplicationTests using Java 19.0.2 with PID 3412 (started by weyte in C:\spring\cefim-spring\springcefim)
+07-04-2023 14:11:13.408 [main] INFO  f.w.s.SpringCefimApplicationTests.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+07-04-2023 14:11:13.827 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+07-04-2023 14:11:13.870 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interfaces.
+07-04-2023 14:11:14.172 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+07-04-2023 14:11:14.207 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.7.Final
+07-04-2023 14:11:14.440 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+07-04-2023 14:11:14.443 [main] WARN  c.z.hikari.util.DriverDataSource.<init> - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+07-04-2023 14:11:14.563 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@48dff674
+07-04-2023 14:11:14.565 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+07-04-2023 14:11:14.605 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+07-04-2023 14:11:15.116 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+07-04-2023 14:11:15.122 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+07-04-2023 14:11:15.308 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
+07-04-2023 14:11:15.644 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-04-2023 14:11:15.936 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+07-04-2023 14:11:15.937 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+07-04-2023 14:11:15.937 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 0 ms
+07-04-2023 14:11:15.965 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarted - Started SpringCefimApplicationTests in 2.704 seconds (process running for 3.581)
+07-04-2023 14:11:16.152 [main] INFO  f.w.s.SpringCefimApplicationTests.testDatabase - Connexion à la BDD :: SUCCESS
+07-04-2023 14:11:16.152 [main] INFO  f.w.s.SpringCefimApplicationTests.testDatabase - Table list of databases = [avis - clients - produits]
+07-04-2023 14:11:16.164 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+07-04-2023 14:11:16.166 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+07-04-2023 14:11:16.171 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+07-04-2023 14:11:26.016 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarting - Starting SpringCefimApplicationTests using Java 19.0.2 with PID 11428 (started by weyte in C:\spring\cefim-spring\springcefim)
+07-04-2023 14:11:26.017 [main] INFO  f.w.s.SpringCefimApplicationTests.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+07-04-2023 14:11:26.422 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+07-04-2023 14:11:26.462 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interfaces.
+07-04-2023 14:11:26.961 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+07-04-2023 14:11:27.016 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.7.Final
+07-04-2023 14:11:27.268 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+07-04-2023 14:11:27.271 [main] WARN  c.z.hikari.util.DriverDataSource.<init> - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+07-04-2023 14:11:27.386 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@722787b5
+07-04-2023 14:11:27.389 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+07-04-2023 14:11:27.425 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+07-04-2023 14:11:27.923 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+07-04-2023 14:11:27.929 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+07-04-2023 14:11:28.118 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
+07-04-2023 14:11:28.470 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-04-2023 14:11:28.720 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+07-04-2023 14:11:28.722 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+07-04-2023 14:11:28.723 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 1 ms
+07-04-2023 14:11:28.754 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarted - Started SpringCefimApplicationTests in 2.893 seconds (process running for 3.748)
+07-04-2023 14:11:28.973 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+07-04-2023 14:11:28.975 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+07-04-2023 14:11:28.980 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+07-04-2023 14:11:51.300 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarting - Starting SpringCefimApplicationTests using Java 19.0.2 with PID 20220 (started by weyte in C:\spring\cefim-spring\springcefim)
+07-04-2023 14:11:51.300 [main] INFO  f.w.s.SpringCefimApplicationTests.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+07-04-2023 14:11:51.771 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+07-04-2023 14:11:51.816 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interfaces.
+07-04-2023 14:11:52.139 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+07-04-2023 14:11:52.179 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.7.Final
+07-04-2023 14:11:52.412 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+07-04-2023 14:11:52.415 [main] WARN  c.z.hikari.util.DriverDataSource.<init> - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+07-04-2023 14:11:52.541 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7de35070
+07-04-2023 14:11:52.543 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+07-04-2023 14:11:52.581 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+07-04-2023 14:11:53.136 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+07-04-2023 14:11:53.143 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+07-04-2023 14:11:53.331 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
+07-04-2023 14:11:53.689 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-04-2023 14:11:54.000 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+07-04-2023 14:11:54.000 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+07-04-2023 14:11:54.003 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 2 ms
+07-04-2023 14:11:54.067 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarted - Started SpringCefimApplicationTests in 2.891 seconds (process running for 3.776)
+07-04-2023 14:11:54.383 [main] INFO  f.w.s.SpringCefimApplicationTests.TestgetProductNameList - result : Chaussures de sport - T-shirt en coton - Pantalon de jogging - Chaussettes de sport - iphone - iphone 13 - Serviette de sport - Lunettes de soleil - iphone 14 - iphone 14
+07-04-2023 14:11:54.416 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+07-04-2023 14:11:54.418 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+07-04-2023 14:11:54.432 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+07-04-2023 14:12:05.757 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarting - Starting SpringCefimApplicationTests using Java 19.0.2 with PID 15064 (started by weyte in C:\spring\cefim-spring\springcefim)
+07-04-2023 14:12:05.758 [main] INFO  f.w.s.SpringCefimApplicationTests.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+07-04-2023 14:12:06.183 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+07-04-2023 14:12:06.223 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interfaces.
+07-04-2023 14:12:06.523 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+07-04-2023 14:12:06.556 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.7.Final
+07-04-2023 14:12:06.795 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+07-04-2023 14:12:06.798 [main] WARN  c.z.hikari.util.DriverDataSource.<init> - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+07-04-2023 14:12:06.927 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7de35070
+07-04-2023 14:12:06.929 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+07-04-2023 14:12:06.969 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+07-04-2023 14:12:07.489 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+07-04-2023 14:12:07.494 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+07-04-2023 14:12:07.686 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
+07-04-2023 14:12:08.074 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-04-2023 14:12:08.322 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+07-04-2023 14:12:08.323 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+07-04-2023 14:12:08.323 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 0 ms
+07-04-2023 14:12:08.347 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarted - Started SpringCefimApplicationTests in 2.743 seconds (process running for 3.57)
+07-04-2023 14:12:08.586 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+07-04-2023 14:12:08.588 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+07-04-2023 14:12:08.592 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+07-04-2023 14:12:16.813 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarting - Starting SpringCefimApplicationTests using Java 19.0.2 with PID 18388 (started by weyte in C:\spring\cefim-spring\springcefim)
+07-04-2023 14:12:16.814 [main] INFO  f.w.s.SpringCefimApplicationTests.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+07-04-2023 14:12:17.260 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+07-04-2023 14:12:17.306 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interfaces.
+07-04-2023 14:12:17.631 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+07-04-2023 14:12:17.670 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.7.Final
+07-04-2023 14:12:17.902 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+07-04-2023 14:12:17.905 [main] WARN  c.z.hikari.util.DriverDataSource.<init> - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+07-04-2023 14:12:18.018 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4217bce6
+07-04-2023 14:12:18.019 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+07-04-2023 14:12:18.054 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+07-04-2023 14:12:18.554 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+07-04-2023 14:12:18.559 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+07-04-2023 14:12:18.742 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
+07-04-2023 14:12:19.076 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-04-2023 14:12:19.307 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+07-04-2023 14:12:19.308 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+07-04-2023 14:12:19.308 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 0 ms
+07-04-2023 14:12:19.324 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarted - Started SpringCefimApplicationTests in 2.666 seconds (process running for 3.514)
+07-04-2023 14:12:19.535 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+07-04-2023 14:12:19.538 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+07-04-2023 14:12:19.544 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+07-04-2023 14:12:42.214 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarting - Starting SpringCefimApplicationTests using Java 19.0.2 with PID 22248 (started by weyte in C:\spring\cefim-spring\springcefim)
+07-04-2023 14:12:42.215 [main] INFO  f.w.s.SpringCefimApplicationTests.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+07-04-2023 14:12:42.629 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+07-04-2023 14:12:42.668 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interfaces.
+07-04-2023 14:12:42.969 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+07-04-2023 14:12:43.004 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.7.Final
+07-04-2023 14:12:43.247 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+07-04-2023 14:12:43.251 [main] WARN  c.z.hikari.util.DriverDataSource.<init> - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+07-04-2023 14:12:43.394 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@41a16eb3
+07-04-2023 14:12:43.395 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+07-04-2023 14:12:43.429 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+07-04-2023 14:12:43.949 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+07-04-2023 14:12:43.957 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+07-04-2023 14:12:44.143 [main] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer.inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: fr.weytensjohann.springcefim.feature.product.ProductRepository
+07-04-2023 14:12:44.487 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-04-2023 14:12:44.729 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+07-04-2023 14:12:44.730 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+07-04-2023 14:12:44.731 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 1 ms
+07-04-2023 14:12:44.753 [main] INFO  f.w.s.SpringCefimApplicationTests.logStarted - Started SpringCefimApplicationTests in 2.685 seconds (process running for 3.533)
+07-04-2023 14:12:45.101 [main] INFO  f.w.s.SpringCefimApplicationTests.testDatabase - Connexion à la BDD :: SUCCESS
+07-04-2023 14:12:45.101 [main] INFO  f.w.s.SpringCefimApplicationTests.testDatabase - Table list of databases = [avis - clients - produits]
+07-04-2023 14:12:45.114 [main] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+07-04-2023 14:12:45.122 [main] INFO  f.w.s.SpringCefimApplicationTests.TestgetProductNameList - result : Chaussures de sport - T-shirt en coton - Pantalon de jogging - Chaussettes de sport - iphone - iphone 13 - Serviette de sport - Lunettes de soleil - iphone 14 - iphone 14
+07-04-2023 14:12:45.225 [main] INFO  f.w.s.SpringCefimApplicationTests.testGetIphoneEntitiesByAvisNote - listProduits : []
+07-04-2023 14:12:45.229 [main] INFO  f.w.s.feature.hello.HelloController.helloWorld - Hello World
+07-04-2023 14:12:45.257 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+07-04-2023 14:12:45.259 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+07-04-2023 14:12:45.266 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
