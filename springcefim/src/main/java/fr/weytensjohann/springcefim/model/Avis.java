@@ -1,4 +1,4 @@
-package fr.weytensjohann.springcefim.feature.avis;
+package fr.weytensjohann.springcefim.model;
 
 import jakarta.persistence.*;
 

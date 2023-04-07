@@ -4,19 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b163c410-a7e0-4a31-8d54-46060c6c073b" name="Changes" comment="07042023">
+    <list default="true" id="b163c410-a7e0-4a31-8d54-46060c6c073b" name="Changes" comment="07/04/2023 14H00 un test à revoir : testDeleteProductByName">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcefim/dirname_IS_UNDEFINED/filename_IS_UNDEFINED" beforeDir="false" afterPath="$PROJECT_DIR$/springcefim/dirname_IS_UNDEFINED/filename_IS_UNDEFINED" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcefim/logs/archived/log_06-04-2023_1.log" beforeDir="false" afterPath="$PROJECT_DIR$/springcefim/logs/archived/log_06-04-2023_1.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcefim/logs_application/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/springcefim/logs_application/app.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcefim/src/main/java/fr/weytensjohann/springcefim/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcefim/src/main/java/fr/weytensjohann/springcefim/feature/hello/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcefim/src/main/java/fr/weytensjohann/springcefim/feature/database/Avis.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcefim/src/main/java/fr/weytensjohann/springcefim/feature/avis/Avis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcefim/src/main/java/fr/weytensjohann/springcefim/feature/avis/Avis.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcefim/src/main/java/fr/weytensjohann/springcefim/model/Avis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcefim/src/main/java/fr/weytensjohann/springcefim/feature/database/DatabaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcefim/src/main/java/fr/weytensjohann/springcefim/feature/database/DatabaseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcefim/src/main/java/fr/weytensjohann/springcefim/feature/database/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcefim/src/main/java/fr/weytensjohann/springcefim/feature/product/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcefim/src/main/java/fr/weytensjohann/springcefim/feature/database/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcefim/src/main/java/fr/weytensjohann/springcefim/feature/product/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcefim/src/main/java/fr/weytensjohann/springcefim/feature/database/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcefim/src/main/java/fr/weytensjohann/springcefim/feature/product/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcefim/src/main/java/fr/weytensjohann/springcefim/feature/database/Produit.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcefim/src/main/java/fr/weytensjohann/springcefim/feature/product/Produit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcefim/src/main/java/fr/weytensjohann/springcefim/feature/database/ProduitDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcefim/src/main/java/fr/weytensjohann/springcefim/feature/product/ProduitDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcefim/src/main/java/fr/weytensjohann/springcefim/feature/database/ProduitWithPriceDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcefim/src/main/java/fr/weytensjohann/springcefim/feature/product/ProduitWithPriceDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcefim/src/main/java/fr/weytensjohann/springcefim/feature/product/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcefim/src/main/java/fr/weytensjohann/springcefim/feature/product/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcefim/src/main/java/fr/weytensjohann/springcefim/feature/product/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcefim/src/main/java/fr/weytensjohann/springcefim/model/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcefim/src/main/java/fr/weytensjohann/springcefim/feature/product/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcefim/src/main/java/fr/weytensjohann/springcefim/feature/product/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcefim/src/main/java/fr/weytensjohann/springcefim/feature/product/Produit.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcefim/src/main/java/fr/weytensjohann/springcefim/model/Produit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcefim/src/main/java/fr/weytensjohann/springcefim/feature/product/ProduitDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcefim/src/main/java/fr/weytensjohann/springcefim/feature/database/ProduitDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcefim/src/main/java/fr/weytensjohann/springcefim/feature/product/ProduitWithPriceDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcefim/src/main/java/fr/weytensjohann/springcefim/feature/database/ProduitWithPriceDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcefim/src/test/java/fr/weytensjohann/springcefim/SpringCefimApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcefim/src/test/java/fr/weytensjohann/springcefim/SpringCefimApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +102,7 @@
       <recent name="fr.weytensjohann.springcefim.feature.database" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SpringCefimApplicationTests">
+  <component name="RunManager" selected="JUnit.SpringCefimApplicationTests.testDeleteNewProductByNameNotFound">
     <configuration name="SpringCefimApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="fr.weytensjohann.springcefim.test" />
       <extension name="coverage">
@@ -118,7 +118,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringCefimApplicationTests.TestgetProductNameList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpringCefimApplicationTests.testDeleteNewProductByNameNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="fr.weytensjohann.springcefim.test" />
       <extension name="coverage">
         <pattern>
@@ -128,13 +128,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="fr.weytensjohann.springcefim" />
       <option name="MAIN_CLASS_NAME" value="fr.weytensjohann.springcefim.SpringCefimApplicationTests" />
-      <option name="METHOD_NAME" value="TestgetProductNameList" />
+      <option name="METHOD_NAME" value="testDeleteNewProductByNameNotFound" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringCefimApplicationTests.testGetSamsung" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpringCefimApplicationTests.testDeleteProductByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="fr.weytensjohann.springcefim.test" />
       <extension name="coverage">
         <pattern>
@@ -144,23 +144,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="fr.weytensjohann.springcefim" />
       <option name="MAIN_CLASS_NAME" value="fr.weytensjohann.springcefim.SpringCefimApplicationTests" />
-      <option name="METHOD_NAME" value="testGetSamsung" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringCefimApplicationTests.testProductList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fr.weytensjohann.springcefim.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fr.weytensjohann.springcefim.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="fr.weytensjohann.springcefim" />
-      <option name="MAIN_CLASS_NAME" value="fr.weytensjohann.springcefim.SpringCefimApplicationTests" />
-      <option name="METHOD_NAME" value="testProductList" />
+      <option name="METHOD_NAME" value="testDeleteProductByName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -182,6 +166,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringCefimApplicationTests.testUpdateProductWithExistingName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fr.weytensjohann.springcefim.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.weytensjohann.springcefim.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.weytensjohann.springcefim" />
+      <option name="MAIN_CLASS_NAME" value="fr.weytensjohann.springcefim.SpringCefimApplicationTests" />
+      <option name="METHOD_NAME" value="testUpdateProductWithExistingName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringCefimApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="fr.weytensjohann.springcefim.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="fr.weytensjohann.springcefim.SpringCefimApplication" />
@@ -191,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpringCefimApplicationTests.testDeleteNewProductByNameNotFound" />
         <item itemvalue="JUnit.SpringCefimApplicationTests" />
-        <item itemvalue="JUnit.SpringCefimApplicationTests.testGetSamsung" />
+        <item itemvalue="JUnit.SpringCefimApplicationTests.testDeleteProductByName" />
+        <item itemvalue="JUnit.SpringCefimApplicationTests.testUpdateProductWithExistingName" />
         <item itemvalue="JUnit.SpringCefimApplicationTests.testProduitFromEntity" />
-        <item itemvalue="JUnit.SpringCefimApplicationTests.TestgetProductNameList" />
-        <item itemvalue="JUnit.SpringCefimApplicationTests.testProductList" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +214,7 @@
       <workItem from="1680768876948" duration="12921000" />
       <workItem from="1680794059941" duration="634000" />
       <workItem from="1680851650845" duration="2205000" />
-      <workItem from="1680854460153" duration="7610000" />
+      <workItem from="1680854460153" duration="13293000" />
     </task>
     <task id="LOCAL-00001" summary="Requêtes simple complète">
       <created>1680615205001</created>
@@ -230,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680869023512</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="07/04/2023 14H00 un test à revoir : testDeleteProductByName">
+      <created>1680869722902</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680869722902</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +247,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Requêtes simple complète" />
     <MESSAGE value="07042023" />
-    <option name="LAST_COMMIT_MESSAGE" value="07042023" />
+    <MESSAGE value="07/04/2023 14H00 un test à revoir : testDeleteProductByName" />
+    <option name="LAST_COMMIT_MESSAGE" value="07/04/2023 14H00 un test à revoir : testDeleteProductByName" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/cefim_spring$SpringCefimApplicationTests_testGetIphoneEntitiesByCategoryName.ic" NAME="SpringCefimApplicationTests.testGetIphoneEntitiesByCategoryName Coverage Results" MODIFIED="1680770920921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

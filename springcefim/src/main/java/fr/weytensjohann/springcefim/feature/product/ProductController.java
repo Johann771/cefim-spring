@@ -1,5 +1,6 @@
 package fr.weytensjohann.springcefim.feature.product;
 
+import fr.weytensjohann.springcefim.model.Produit;
 import jakarta.persistence.EntityNotFoundException;
 import org.hibernate.exception.ConstraintViolationException;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -38,16 +39,20 @@ public class ProductController {
         }
     }
     @DeleteMapping("/delete/{productId}")
-    public ResponseEntity<Produit> deleteNewProduct(@PathVariable("productId") Integer productId){
+    public ResponseEntity<Produit> deleteNewProductByName(@PathVariable("productId") Integer productId){
         try{
             return ResponseEntity.ok(productService.deleteProductById(productId));
         } catch (EntityNotFoundException entityNotFoundException){
             return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
         }
     }
-//    @DeleteMapping("/delete/{name}")
-//    public void deleteNewProduct(@RequestParam("name") String name){
-//        productService.deleteProductByName(name);
-//        //
-//    }
+    @DeleteMapping("/delete")
+    public ResponseEntity<Produit> deleteNewProductByName(@RequestParam("productName") String name){
+        try {
+            return ResponseEntity.ok(productService.deleteProductByName(name));
+        } catch (EntityNotFoundException entityNotFoundException){
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+        }
+
+    }
 }

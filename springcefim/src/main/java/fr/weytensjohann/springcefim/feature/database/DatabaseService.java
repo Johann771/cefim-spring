@@ -1,9 +1,7 @@
 package fr.weytensjohann.springcefim.feature.database;
 
-import fr.weytensjohann.springcefim.feature.product.ProductRepository;
-import fr.weytensjohann.springcefim.feature.product.Produit;
-import fr.weytensjohann.springcefim.feature.product.ProduitDto;
-import fr.weytensjohann.springcefim.feature.product.ProduitWithPriceDto;
+import fr.weytensjohann.springcefim.model.ProductRepository;
+import fr.weytensjohann.springcefim.model.Produit;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.Query;
 import jakarta.persistence.Tuple;
@@ -14,6 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+
 @Service
 public class DatabaseService {
     private final Logger logger = LoggerFactory.getLogger(DatabaseService.class);

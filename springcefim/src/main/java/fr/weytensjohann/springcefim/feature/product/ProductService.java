@@ -1,5 +1,7 @@
 package fr.weytensjohann.springcefim.feature.product;
 
+import fr.weytensjohann.springcefim.model.ProductRepository;
+import fr.weytensjohann.springcefim.model.Produit;
 import jakarta.persistence.EntityNotFoundException;
 import org.hibernate.exception.ConstraintViolationException;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -51,5 +53,14 @@ public class ProductService {
         findProduct.setName(produit.getName());
         findProduct.setDescription(produit.getDescription());
         return productRepository.save(findProduct);
+    }
+
+    public Produit deleteProductByName(String name) {
+        List<Produit> byId = productRepository.findByNameContainingIgnoreCase(name);
+        if (byId.isEmpty()){
+            throw new EntityNotFoundException("Produit with name : "+ name+" does not exist.");
+        }
+        productRepository.deleteByName(name);
+        return null;
     }
 }

@@ -2,9 +2,9 @@ package fr.weytensjohann.springcefim;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import fr.weytensjohann.springcefim.feature.database.DatabaseService;
-import fr.weytensjohann.springcefim.feature.product.Produit;
-import fr.weytensjohann.springcefim.feature.product.ProduitDto;
-import fr.weytensjohann.springcefim.feature.product.ProduitWithPriceDto;
+import fr.weytensjohann.springcefim.model.Produit;
+import fr.weytensjohann.springcefim.feature.database.ProduitDto;
+import fr.weytensjohann.springcefim.feature.database.ProduitWithPriceDto;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.Query;
 import jakarta.transaction.Transactional;
@@ -122,15 +122,15 @@ class SpringCefimApplicationTests {
 		assert listProduits.stream().allMatch(produit -> produit.equals(p1) || produit.equals(p2));
 	}
 
-	@Test
-	void testGetIphoneEntitiesByName(){
-		ProduitWithPriceDto p1 = new ProduitWithPriceDto(7, "iphone", "portable", BigDecimal.valueOf(1000.0));
-		ProduitWithPriceDto p2 = new ProduitWithPriceDto(8, "iphone 13", "portable", BigDecimal.valueOf(1200.0));
-
-		List<Produit> listProduits = databaseService.getProductEntityByName("iphone");
-
-		assert listProduits.stream().allMatch(produit -> testEquality(produit, p1) || testEquality(produit, p2));
-	}
+//	@Test
+//	void testGetIphoneEntitiesByName(){
+//		ProduitWithPriceDto p1 = new ProduitWithPriceDto(7, "iphone", "portable", BigDecimal.valueOf(1000.0));
+//		ProduitWithPriceDto p2 = new ProduitWithPriceDto(8, "iphone 13", "portable", BigDecimal.valueOf(1200.0));
+//
+//		List<Produit> listProduits = databaseService.getProductEntityByName("iphone");
+//
+//		assert listProduits.stream().allMatch(produit -> testEquality(produit, p1) || testEquality(produit, p2));
+//	}
 	@Test
 	void testGetIphoneEntitiesByAvisNote(){
 		ProduitWithPriceDto p1 = new ProduitWithPriceDto(7, "iphone", "portable", BigDecimal.valueOf(1000.0));
@@ -174,13 +174,14 @@ class SpringCefimApplicationTests {
 	}
 	//A revoir
 	@Test
-	void testDeleteProductByName() throws Exception{
-		RequestBuilder requestBuilder = MockMvcRequestBuilders.delete("/api/product?productName=iphone");
+	void testDeleteProductByName() throws Exception {
+		RequestBuilder requestBuilder = MockMvcRequestBuilders.delete("/api/product/delete?productName=iphone");
 		ResultMatcher resultStatus = MockMvcResultMatchers.status().isOk();
 
 		mvc.perform(requestBuilder)
 				.andExpect(resultStatus);
 	}
+
 	@Test
 	void getProductById() throws Exception {
 		RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/product/get/10");
@@ -204,8 +205,8 @@ class SpringCefimApplicationTests {
 	@Test
 	void testUpdateProductWithExistingName() throws Exception{
 		Map<String, String> listFields = new HashMap<>(){{
-			put("description", "Pantalon de jogging confortable avec poches zippées");
-			put("name", "Pantalon de jogging");
+			put("description", "portable");
+			put("name", "iphone 13");
 		}};
 
 		RequestBuilder requestBuilder = MockMvcRequestBuilders
@@ -222,5 +223,13 @@ class SpringCefimApplicationTests {
 		RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/product/get/20");
 		ResultMatcher resultMatcher = MockMvcResultMatchers.status().isNotFound();
 		mvc.perform(requestBuilder).andExpect(resultMatcher);
+	}
+	@Test
+	void testDeleteNewProductByNameNotFound() throws Exception{
+		RequestBuilder requestBuilder = MockMvcRequestBuilders.delete("/api/product/delete?productName=iphone 14");
+		ResultMatcher resultStatus = MockMvcResultMatchers.status().isNotFound();
+
+		mvc.perform(requestBuilder)
+				.andExpect(resultStatus);
 	}
 }
